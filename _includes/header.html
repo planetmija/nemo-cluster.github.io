@@ -20,7 +20,11 @@
                         <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
+                            {% if subitem.link %}
                             <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                            {% elsif subitem.extlink %}
+                            <a href="{{ subitem.extlink }}" class="navbar-item" target="_blank">{{ subitem.name }}</a>
+                            {% endif %}
                             {% endfor %}
                         </div>
                     </div>
@@ -38,6 +42,21 @@
                     <span>Sponsor</span>
                 </a>
                 {% endif %}
+                {% if site.data.nemo_status.status == "success" and site.data.nemo_status.title and site.data.nemo_status.text %}
+                <a class="navbar-item has-text-{{ site.data.nemo_status.status }}" href="/nemo/"><i
+                        class="fas fa-circle"></i></a>
+                {% elsif site.data.nemo_status.status and site.data.nemo_status.title and site.data.nemo_status.text %}
+                <a class="navbar-item has-text-{{ site.data.nemo_status.status }}" href="/nemo/"><i
+                        class="fas fa-exclamation-circle"></i></a>
+                {% endif %}
+                <a class="navbar-item" href="{{ site.github.repository_url }}" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a class="navbar-item" href="https://www.twitter.com/nemo_cluster" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="navbar-item" href="https://t.me/nemo_cluster" target="_blank"><i
+                        class="fab fa-telegram-plane"></i></a>
+                <a class="navbar-item" href="{{ "/feed.xml" | relative_url }}" target="_blank"><i
+                        class="fas fa-rss"></i></a>
             </div>
 
         </div>
