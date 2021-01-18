@@ -1,12 +1,23 @@
-style: is-light
+height: is-medium
 items:
-  - title: Multiple page layouts
-    subtitle: Including sidebar, menubar, tabs and callouts
-    icon: fa-copy
-  - title: Blog included
-    subtitle: Layouts for blog and post pages included
-    icon: fa-mail-bulk
-  - title: Works with GitHub Pages
-    subtitle: Quick and easy to get started
-    icon: fa-github
-    icon_brand: true
+  - title: Documentation
+    subtitle: Nemo Documentation
+    icon: fa-book-open
+    description: >
+      HPC, NEMO documentation and links to bwHPC.
+    call_to_action_name: Open Documentation
+    call_to_action_link: /documentation/
+  - title: Access
+    subtitle: How-to Access NEMO
+    icon: fa-terminal
+    description: >
+      Information on how-to gain access to bwForCluster NEMO.
+    call_to_action_name: Access NEMO
+    call_to_action_link: /nemo/access/
+  - title: News
+    subtitle: NEMO News
+    description: >
+      Read our latest news regarding NEMO and bwHPC.
+    icon: fa-newspaper
+    call_to_action_name: Read News
+    call_to_action_link: /news/
