@@ -14,7 +14,10 @@
         {% endif %}
 
         <div class="content is-small has-text-centered">
-            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+            {%- if site.author -%}
+                <p class=""></p>{{ site.author | escape }}</p>
+            {%- endif -%}
+            <p class="">Theme built by <a href="https://www.csrhymes.com" target="_blank">C.S. Rhymes</a></p>
         </div>
     </div>
 </footer>
