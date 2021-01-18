@@ -1,5 +1,10 @@
 ---
 ---
+// set main color
+$primary: #008cba;
+
+// change link color to primary color
+$link: $primary;
 
 // Import Main CSS file from theme
 @import "main";
