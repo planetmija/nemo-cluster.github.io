@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Documentation
+  link: /documentation/
+- name: News
+  link: /news/
+- name: Contact and Privacy Policy
+  link: /privacy-policy/
