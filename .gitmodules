@@ -1,0 +1,3 @@
+[submodule "assets/js/highcharts"]
+	path = assets/js/highcharts
+	url = https://github.com/nemo-cluster/highcharts
