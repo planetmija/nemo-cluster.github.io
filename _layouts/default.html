@@ -16,11 +16,20 @@
  lang="{{ site.lang | default: 'en' }}"
  {% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
   {% include head.html %}
+  <script type="text/javascript" src="/assets/js/delete-notes.js"></script>
   <body>
     {% include header.html %}
     {% unless page.hide_hero %}
         {% include hero.html %}
     {% endunless %}
+    {% if page.nemo_status %}
+        {% if site.data.nemo_status.status != "success" and site.data.nemo_status.title and site.data.nemo_status.text %}
+        <article class="notification is-{{site.data.nemo_status.status }}">
+            <button class="delete" aria-label="delete"></button>
+            {{ site.data.nemo_status.title }}: {{ site.data.nemo_status.text }}
+        </article>
+        {% endif %}
+    {% endif %}
     {% include callouts.html %}
     <section class="section">
         <div class="container">
@@ -45,6 +54,11 @@
                 {% if site.posts and page.show_sidebar %}
                 <div class="column is-4-desktop is-4-tablet">
                     {% include latest-posts.html %}
+                    {% if page.twitter_posts and page.twitter_lang and page.twitter_url %}
+                        <a class="twitter-timeline" data-tweet-limit="{{page.twitter_posts}}" data-lang="{{page.twitter_lang}}"
+                            data-dnt="true" data-chrome="nofooter noborders noscrollbar" href="{{page.twitter_url}}">Tweets by nemo_cluster</a><!--data-theme="dark"-->
+                        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {% endif %}
                 </div>
                 {% endif %}
             </div>
