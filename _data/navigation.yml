@@ -1,19 +1,26 @@
-- name: Docs
-  link: /docs/
-- name: Example Pages
-  link: /#
+- name: NEMO
+  link: /nemo/
   dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Sponsors Page
-      link: /sponsors/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-- name: Blog
-  link: /blog/
+    - name: NEMO Status and Usage Statistics
+      link: /nemo/
+    - name: Access to NEMO
+      link: /nemo/access/
+    - name: Login to NEMO
+      link: /nemo/login/
+    - name: NEMO Documentation on the Wiki
+      extlink: https://wiki.bwhpc.de/e/Category:BwForCluster_NEMO
+    - name: Apply for bwHPC Entitlements
+      extlink: https://www.hpc.uni-freiburg.de/bwhpc/entitlement
+- name: Documentation
+  link: /documentation/
+  dropdown:
+    - name: bwHPC
+      link: /documentation/
+    - name: Software Modules
+      link: /documentation/modules/
+    - name: Singularity
+      link: /documentation/singularity/
+    - name: Conda
+      link: /documentation/conda/
+- name: News
+  link: /news/
