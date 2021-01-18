@@ -1,0 +1,139 @@
+// Overrides
+.hero {
+  background-color: $grey-dark;
+}
+
+// .button {
+//   color: $white;
+
+//   &.is-active,
+//   &.is-focused,
+//   &:active,
+//   &:focus {
+//     box-shadow: 0 0 0 2px rgba($button-focus-border-color, 0.5);
+//   }
+//   @each $name, $pair in $colors {
+//     $color: nth($pair, 1);
+//     $color-invert: nth($pair, 2);
+
+//     &.is-#{$name} {
+//       &.is-hovered,
+//       &:hover {
+//         background-color: lighten($color, 7.5%);
+//       }
+
+//       &.is-active,
+//       &.is-focused,
+//       &:active,
+//       &:focus {
+//         border-color: $color;
+//         box-shadow: 0 0 0 2px rgba($color, 0.5);
+//       }
+//     }
+//   }
+// }
+
+.label {
+  color: $grey-lighter;
+}
+
+.notification {
+  background-color: $grey-dark;
+}
+
+.card {
+  $card-border-color: lighten($grey-darker, 5);
+  border: $card-border-color;
+  background-color: $grey-darker;
+
+  .card-header {
+    background-color: rgba($black-bis, 0.2);
+    border-radius: $radius $radius 0 0;
+  }
+
+  .card-footer {
+    background-color: rgba($black-bis, 0.2);
+  }
+
+  .card-footer,
+  .card-footer-item {
+    border-color: $card-border-color;
+  }
+}
+
+.notification {
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+
+    &.is-#{$name} {
+      a:not(.button) {
+        color: $color-invert;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.modal-card-body {
+  background-color: $grey-darker;
+}
+
+.modal-card-foot,
+.modal-card-head {
+  border-color: $grey-dark;
+}
+
+.message-header {
+  font-weight: $weight-bold;
+  background-color: $grey-dark;
+  color: $white;
+}
+
+.message-body {
+  border-color: $grey-dark;
+}
+
+.panel-tabs {
+  a {
+    &.is-active {
+      border-bottom-color: $link-active;
+    }
+  }
+}
+
+.panel-block {
+  &:hover {
+    color: $link-hover;
+
+    .panel-icon {
+      color: $link-hover;
+    }
+  }
+
+  &.is-active {
+    .panel-icon {
+      color: $link-active;
+    }
+  }
+}
+
+.tabs {
+    &.is-boxed {
+      li.is-active a {
+      background-color: darken($grey-darker, 4);
+    }
+  }
+}
+
+.hero {
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+  }
+}
+
+.highlight {
+  background-color: $grey-darker;
+}
