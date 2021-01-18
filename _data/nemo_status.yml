@@ -1,0 +1,10 @@
+status: success
+title: NEMO fully operational
+text: >
+  No problem
+
+# status is one of: success, warning, danger
+# multi-line text (space important!):
+# text: >
+#   This is some
+#   multi-line text
