@@ -17,6 +17,7 @@ highlighter: rouge
 footer_menu: footer_menu
 hide_share_buttons: true
 # theme_color: '#008cba'
+# fixed_navbar: top
 
 plugins:
   - jekyll-sitemap
@@ -68,15 +69,6 @@ defaults:
       menubar: doc-menu
   -
     scope:
-      path: "nemo-documentation"
-    values:
-      layout: page
-      hide_hero: true
-      show_sidebar: false
-      toc: true
-      menubar: doc-menu
-  -
-    scope:
       path: ""
       type: "posts"
     values:
@@ -84,4 +76,3 @@ defaults:
       layout: post
       hide_hero: true
       show_sidebar: true
-
