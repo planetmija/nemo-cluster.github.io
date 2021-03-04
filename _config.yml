@@ -8,7 +8,7 @@ author: 2020 HPC Team, University of Freiburg
 #baseurl: "/"
 url: "https://nemo-cluster.github.io"
 permalink: pretty
-favicon: /favicon.ico
+favicon: /img/nemo-favicon.png
 paginate: 9
 paginate_path: "/news/page:num"
 livereload: true
