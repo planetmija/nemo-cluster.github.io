@@ -1,0 +1,40 @@
+{% if page.tlp == "white" %}
+<article class="message is-info">
+  <div class="message-header">
+    <p>TLP:WHITE</p>
+  </div>
+  <div class="message-body">
+    Disclosure not limited.
+  </div>
+</article>
+{% elsif page.tlp == "green" %}
+<article class="message is-success">
+  <div class="message-header">
+    <p>TLP:GREEN</p>
+  </div>
+  <div class="message-body">
+    Limited disclosure, restricted to the community/sector. Distribution outside
+    this audience requires written permission from the originator.
+  </div>
+</article>
+{% elsif page.tlp == "amber" %}
+<article class="message is-warning">
+  <div class="message-header">
+    <p>TLP:AMBER</p>
+  </div>
+  <div class="message-body">
+    Limited disclosure, restricted to participants' organizations. Distribution
+    outside this audience requires written permission from the originator.
+  </div>
+</article>
+{% elsif page.tlp == "red" %}
+<article class="message is-danger">
+  <div class="message-header">
+    <p>TLP:RED</p>
+  </div>
+  <div class="message-body">
+    Not for disclosure, restricted to participants only. Distribution outside
+    this audience requires written permission from the originator.
+  </div>
+</article>
+{% endif %}
