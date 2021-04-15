@@ -4,8 +4,9 @@
     <meta name="theme-color" content={{ site.theme_color | default: '#ffffff' }}>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css" media="(prefers-color-scheme: light)">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app_dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css" media="(prefers-color-scheme: light)"> -->
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app_dark.css" media="(prefers-color-scheme: dark)"> -->
     <link rel="shortcut icon" type="image/png"
           {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
     />
