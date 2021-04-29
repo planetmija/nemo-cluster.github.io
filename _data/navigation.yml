@@ -7,6 +7,8 @@
       link: /nemo/access/
     - name: Login to NEMO
       link: /nemo/login/
+    - name: Acknowledgement
+      link: /nemo/acknowledgement/
     - name: NEMO Documentation on the Wiki
       extlink: https://wiki.bwhpc.de/e/Category:BwForCluster_NEMO
     - name: Apply for bwHPC Entitlements
