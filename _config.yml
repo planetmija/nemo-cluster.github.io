@@ -1,4 +1,4 @@
-# Site Settings
+lang: en
 title: bwForCluster NEMO
 tagline: HPC cluster for Neuroscience, Elementary Particle Physics, Microsystems Engineering and Materials Science (NEMO).
 email: "enm-support@bwhpc.de"
@@ -6,7 +6,7 @@ description: >
   HPC cluster for Neuroscience, Elementary Particle Physics, Microsystems Engineering and Materials Science (NEMO).
 author: 2021 HPC Team, University of Freiburg
 #baseurl: "/"
-url: "https://nemo-cluster.github.io"
+url: "https://cluster.nemo.uni-freiburg.de"
 permalink: pretty
 favicon: /img/nemo-favicon.png
 paginate: 9
@@ -43,7 +43,6 @@ exclude:
 sass:
   style: compressed
   source_dir: _sass
-
 
 feed:
   categories:
