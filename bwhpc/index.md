@@ -23,7 +23,7 @@ communities: **N**euroscience, **E**lementary Particle Physics,
 [bwUniCluster](https://wiki.bwhpc.de/e/Category:BwUniCluster){:target="_blank"}
 is available for all researchers and students from the state of BW.
 
-![NEMO Competence Center](/img/nemo-cc.png "NEMO Competence Center"){:width="600px" .align-center}
+![bwHPC Competence Centers](/img/nemo-cc.png "bwHPC Competence Centers"){:width="600px" .center-image}
 
 All available
 [bwHPC clusters](https://wiki.bwhpc.de/e/Category:BwHPC_Cluster){:target="_blank"}
@@ -65,26 +65,17 @@ If you would like to have a course you can\'t find on the course list,
 please send us a request for that and who is interested in which topics.
 We can then try to provide this course at one site.
 
-If you have problems on the clusters please name the problem exactly
-and send the in- and output and the scripts, as well. If you have
-problems with not working jobs send diagnose information like
-`checkjob`, as well `checkjob -v <JobID>`.
-
 A prerequisite for support is the use of our ticket system
 (see [contact](/privacy-policy/))
 instead of personal messages. Otherwise individual requests might be lost and can
 not be tracked by other team members. We encourage the use of the
 official university email address clearly stating your affiliation
 (\<e-mail-ID@\<name-of-uni\>.de), because we receive mails from the
-whole state. For Freiburg users this can be set via preferred e.-mail though
+whole state. For Freiburg users this can be set via preferred e-mail though
 [myaccount](https://myaccount.uni-freiburg.de){:target="_blank"}.
 
-We publish newsletters and other important information on our
-newsletter and
-[HPC web site](http://www.hpc.uni-freiburg.de){:target="_blank"}.
+We publish news and other important information on our
+newsletter and [news](/news/) page.
 
 To subscribe to our the news mailing list, please send an e-mail to to
 [hpc-news-subscribe@hpc.uni-freiburg.de](mailto:hpc-news-subscribe@hpc.uni-freiburg.de).
-To read
-[previous newsletters](https://www.hpc.uni-freiburg.de/news/newsletters){:target="_blank"}
-visit our web page.
