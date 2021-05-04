@@ -63,7 +63,7 @@ Any compute job running on the login nodes will be terminated without any notice
 
 If you forgot your password for the bwForCluster NEMO you can set a new one on the
 [NEMO service page](https://bwservices.uni-freiburg.de){:target="_blank"}.
-Just use the link in the "bwForCluster NEMO" service box.
+Just use the link in the **bwForCluster NEMO** service box.
 
 If you have trouble resetting your password, please try to delete your
 password first (use button) and then reset it again. If this does not
