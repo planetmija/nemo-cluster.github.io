@@ -1,6 +1,7 @@
 ---
-title: bwHPC
+title: The bwHPC Project
 ---
+# The bwHPC Project
 
 The state of Baden-Württemberg offers many
 [HPC resources](http://www.bwhpc.de){:target="_blank"}
