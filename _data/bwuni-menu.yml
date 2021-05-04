@@ -1,0 +1,12 @@
+- label: bwUniCluster
+  items:
+    - name: About
+      link: /bwunicluster/
+    - name: Access
+      extlink: https://wiki.bwhpc.de/e/BwUniCluster_2.0_User_Access
+    - name: Login and Troubleshooting
+      extlink: https://wiki.bwhpc.de/e/BwUniCluster_2.0_User_Access#Login
+    - name: First Steps
+      extlink: https://wiki.bwhpc.de/e/First_Steps_on_bwHPC_cluster
+    - name: Wiki and News
+      extlink: https://wiki.bwhpc.de/e/Category:BwUniCluster_2.0
