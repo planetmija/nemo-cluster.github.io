@@ -1,0 +1,8 @@
+- label: bwHPC
+  items:
+    - name: About
+      link: /bwhpc/
+    - name: bwHPC Project
+      extlink: https://www.bwhpc.de/
+    - name: bwHPC Wiki
+      extlink: https://wiki.bwhpc.de/
