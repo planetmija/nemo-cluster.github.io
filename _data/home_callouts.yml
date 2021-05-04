@@ -1,12 +1,5 @@
 height: is-medium
 items:
-  - title: Documentation
-    subtitle: Nemo Documentation
-    icon: fa-book-open
-    description: >
-      HPC, NEMO documentation and links to bwHPC.
-    call_to_action_name: Open Documentation
-    call_to_action_link: /documentation/
   - title: Access
     subtitle: How-to Access NEMO
     icon: fa-terminal
@@ -14,10 +7,17 @@ items:
       Information on how-to gain access to bwForCluster NEMO.
     call_to_action_name: Access NEMO
     call_to_action_link: /nemo/access/
+  - title: Status and Statistics
+    subtitle: NEMO Status
+    icon: fa-chart-bar
+    description: >
+      HPC, NEMO documentation and links to bwHPC.
+    call_to_action_name: Show NEMO Status
+    call_to_action_link: /nemo/stat/
   - title: News
     subtitle: NEMO News
     description: >
       Read our latest news regarding NEMO and bwHPC.
     icon: fa-newspaper
-    call_to_action_name: Read News
+    call_to_action_name: Read the News
     call_to_action_link: /news/
