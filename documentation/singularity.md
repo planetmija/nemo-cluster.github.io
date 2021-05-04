@@ -1,6 +1,0 @@
----
-title: Singularity
----
-
-Singularity
-=====================
