@@ -1,28 +1,33 @@
 - name: NEMO
   link: /nemo/
   dropdown:
-    - name: NEMO Status and Usage Statistics
-      link: /nemo/
-    - name: Access to NEMO
+    - name: Status and Statistics
+      link: /nemo/stat/
+    - name: Access
       link: /nemo/access/
-    - name: Login to NEMO
+    - name: Login
       link: /nemo/login/
     - name: Acknowledgement
       link: /nemo/acknowledgement/
-    - name: NEMO Documentation on the Wiki
+    - name: NEMO Wiki
       extlink: https://wiki.bwhpc.de/e/Category:BwForCluster_NEMO
-    - name: Apply for bwHPC Entitlements
-      extlink: https://www.hpc.uni-freiburg.de/bwhpc/entitlement
-- name: Documentation
-  link: /documentation/
+- name: bwUniCluster
+  link: /bwunicluster/
   dropdown:
-    - name: bwHPC
-      link: /documentation/
-    - name: Software Modules
-      link: /documentation/modules/
-    - name: Singularity
-      link: /documentation/singularity/
-    - name: Conda
-      link: /documentation/conda/
+    - name: Access
+      extlink: https://wiki.bwhpc.de/e/BwUniCluster_2.0_User_Access
+    - name: Login and Troubleshooting
+      extlink: https://wiki.bwhpc.de/e/BwUniCluster_2.0_User_Access#Login
+    - name: First Steps
+      extlink: https://wiki.bwhpc.de/e/First_Steps_on_bwHPC_cluster
+    - name: Wiki and News
+      extlink: https://wiki.bwhpc.de/e/Category:BwUniCluster_2.0
+- name: bwHPC
+  link: /bwhpc/
+  dropdown:
+    - name: bwHPC Project
+      extlink: https://www.bwhpc.de/
+    - name: bwHPC Wiki
+      extlink: https://wiki.bwhpc.de/
 - name: News
   link: /news/
