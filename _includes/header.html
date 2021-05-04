@@ -18,13 +18,17 @@
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
                     <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                        {% if item.link %}
                         <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+                        {% elsif item.extlink %}
+                        <a href="{{ item.extlink }}" class="navbar-link"><em>{{ item.name }}</em></a>
+                        {% endif %}
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
                             {% if subitem.link %}
                             <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
                             {% elsif subitem.extlink %}
-                            <a href="{{ subitem.extlink }}" class="navbar-item" target="_blank">{{ subitem.name }}</a>
+                            <a href="{{ subitem.extlink }}" class="navbar-item" target="_blank"><em>{{ subitem.name }}</em></a>
                             {% endif %}
                             {% endfor %}
                         </div>
@@ -44,10 +48,10 @@
                 </a>
                 {% endif %}
                 {% if site.data.nemo_status.status == "success" and site.data.nemo_status.title and site.data.nemo_status.text %}
-                <a class="navbar-item has-text-{{ site.data.nemo_status.status }}" href="/nemo/"><i
+                <a class="navbar-item has-text-{{ site.data.nemo_status.status }}" href="/nemo/stat/"><i
                         class="fas fa-circle"></i></a>
                 {% elsif site.data.nemo_status.status and site.data.nemo_status.title and site.data.nemo_status.text %}
-                <a class="navbar-item has-text-{{ site.data.nemo_status.status }}" href="/nemo/"><i
+                <a class="navbar-item has-text-{{ site.data.nemo_status.status }}" href="/nemo/stat/"><i
                         class="fas fa-exclamation-circle"></i></a>
                 {% endif %}
                 <a class="navbar-item" href="{{ site.github.repository_url }}" target="_blank"><i
