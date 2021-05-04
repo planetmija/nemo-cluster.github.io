@@ -1,0 +1,14 @@
+- label: NEMO
+  items:
+    - name: About
+      link: /nemo/
+    - name: Status and Statistics
+      link: /nemo/stat/
+    - name: Access
+      link: /nemo/access/
+    - name: Login
+      link: /nemo/login/
+    - name: Acknowledgement
+      link: /nemo/acknowledgement/
+    - name: NEMO Wiki
+      extlink: https://wiki.bwhpc.de/e/Category:BwForCluster_NEMO
