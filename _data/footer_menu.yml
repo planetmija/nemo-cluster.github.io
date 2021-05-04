@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Documentation
-  link: /documentation/
+- name: NEMO Status
+  link: /nemo/stat/
 - name: News
   link: /news/
 - name: Contact and Privacy Policy
