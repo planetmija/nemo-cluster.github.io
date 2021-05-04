@@ -59,19 +59,43 @@ defaults:
       show_sidebar: false
   -
     scope:
-      path: "documentation"
-    values:
-      layout: page
-      hide_hero: true
-      show_sidebar: false
-      toc: true
-      menubar: doc-menu
-  -
-    scope:
-      path: ""
+      path: "news"
       type: "posts"
     values:
       author: "NEMO Team"
       layout: post
       hide_hero: true
       show_sidebar: true
+  -
+    scope:
+      path: "nemo"
+    values:
+      layout: page
+      hide_hero: true
+      show_sidebar: false
+      menubar: nemo-menu
+  -
+    scope:
+      path: "bwhpc"
+    values:
+      layout: page
+      hide_hero: true
+      show_sidebar: false
+      menubar: bwhpc-menu
+  -
+    scope:
+      path: "bwunicluster"
+    values:
+      layout: page
+      hide_hero: true
+      show_sidebar: false
+      menubar: bwuni-menu
+#  -
+#    scope:
+#      path: "documentation"
+#    values:
+#      layout: page
+#      hide_hero: true
+#      show_sidebar: false
+#      toc: true
+#      menubar: doc-menu
