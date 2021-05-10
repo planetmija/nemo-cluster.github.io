@@ -30,7 +30,7 @@ nemo_status: true
   </header>
   <div class="card-image">
     <figure class="image is-16by9">
-      <embed class="has-ratio" width="100%" frameborder="0" seamless src="https://cloud.bwfor.uni-freiburg.de/anon/usage/chart/nemo_queue/"/>
+      <embed class="has-ratio" width="100%" frameborder="0" seamless src="https://cloud.nemo.uni-freiburg.de/anon/usage/chart/nemo_queue/"/>
     </figure>
   </div>
 </div>
