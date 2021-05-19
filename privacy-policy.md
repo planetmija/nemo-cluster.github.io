@@ -9,11 +9,10 @@ This is a webpage for HPC at the University of Freiburg, Germany and the bwForCl
 
 ## Contact
 
-For general HPC, bwHPC and cluster support contact:
-E-mail: [hpc-support@hpc.uni-freiburg.de](mailto:hpc-support@hpc.uni-freiburg.de)
+For bwForcluster NEMO, bwUniCluster, bwHPC, general HPC support refer to the corresponding [support](/support/) pages.
 
-For NEMO-specific cluster and user support contact:
-E-mail: [enm-support@hpc.uni-freiburg.de](mailto:enm-support@hpc.uni-freiburg.de)
+If you need to contact us by e-mail write to
+[hpc-support@hpc.uni-freiburg.de](mailto:hpc-support@hpc.uni-freiburg.de)
 
 ## Data Protection Policy (GDPR)
 
@@ -36,4 +35,5 @@ E-Mail:  [datenschutzbeauftragter@uni-freiburg.de](mailto:datenschutzbeauftragte
 
 ## Third Party Inclusion
 
-This website is hosted by [Github](https://www.github.com/) using [Github Pages](https://help.github.com/articles/what-is-github-pages/). The Github Global Privacy Practices are available [here](https://help.github.com/articles/global-privacy-practices/).
+This website is hosted by [Github](https://www.github.com/) using [Github Pages](https://help.github.com/articles/what-is-github-pages/).
+The Github Global Privacy Practices are available [here](https://help.github.com/articles/global-privacy-practices/).
