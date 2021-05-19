@@ -8,6 +8,8 @@
       link: /nemo/access/
     - name: Login
       link: /nemo/login/
+    - name: Support
+      link: /nemo/support/
     - name: Acknowledgement
       link: /nemo/acknowledgement/
     - name: NEMO Wiki
