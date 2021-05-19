@@ -2,6 +2,8 @@
   items:
     - name: About
       link: /bwunicluster/
+    - name: Support
+      link: /bwunicluster/support/
     - name: Access
       extlink: https://wiki.bwhpc.de/e/BwUniCluster_2.0_User_Access
     - name: Login and Troubleshooting
