@@ -7,6 +7,8 @@
       link: /nemo/access/
     - name: Login
       link: /nemo/login/
+    - name: Support
+      link: /nemo/support/
     - name: Acknowledgement
       link: /nemo/acknowledgement/
     - name: NEMO Wiki
@@ -14,6 +16,8 @@
 - name: bwUniCluster
   link: /bwunicluster/
   dropdown:
+    - name: Support
+      link: /bwunicluster/support/
     - name: Access
       extlink: https://wiki.bwhpc.de/e/BwUniCluster_2.0_User_Access
     - name: Login and Troubleshooting
@@ -25,9 +29,23 @@
 - name: bwHPC
   link: /bwhpc/
   dropdown:
+    - name: Support
+      link: /bwhpc/support/
     - name: bwHPC Project
       extlink: https://www.bwhpc.de/
     - name: bwHPC Wiki
       extlink: https://wiki.bwhpc.de/
+- name: Support
+  link: /support/
+  dropdown:
+    - name: NEMO
+      link: /nemo/support/
+    - name: bwUniCluster
+      link: /bwunicluster/support/
+    - name: bwForClusters / bwHPC / HPC
+      link: /bwhpc/support/
 - name: News
   link: /news/
+  dropdown:
+    - name: Newsletters
+      link: /newsletters/
