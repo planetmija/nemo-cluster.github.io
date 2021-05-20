@@ -31,6 +31,8 @@
   dropdown:
     - name: Support
       link: /bwhpc/support/
+    - name: bwHPC Entitlements
+      link: /bwhpc/entitlement/
     - name: bwHPC Project
       extlink: https://www.bwhpc.de/
     - name: bwHPC Wiki
