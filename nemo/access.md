@@ -37,7 +37,7 @@ http://bwidm.de/entitlement/bwForCluster
 {:start="2"}
 2. If you don't have the **bwForCluster** entitlement, you'll need to request it to use NEMO.
     1. Procedure for users from
-      [Freiburg](https://www.hpc.uni-freiburg.de/bwhpc/entitlement "Entitlement form"){:target="_blank"}.
+      [Freiburg](/bwhpc/entitlement/ "Entitlement form").
     2. Instructions for users from
       [other universities](https://wiki.bwhpc.de/e/BwForCluster_Entitlement){:target="_blank"}.
     3. After you receive the e-mail that your entitlement was granted,
