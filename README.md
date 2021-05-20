@@ -15,24 +15,39 @@ If you want to run and test Jekyll locally you'll have to clone the repository.
 
 It is necessary to install ruby and maybe some other dependencies. Currently only ruby version 2.x
 is supported, so if your system version already provides 3.x you should use rbenv or rvm to install
-and configure multiple versions locally.
+and configure multiple versions locally (see Troubleshooting).
 
 After ruby is set up and the repository is cloned you can run the following commands:
 
 ```shell
-gem install
+gem install bulma-clean-theme
 #gem update
 bundle exec jekyll serve
 ```
 
 The website should appear on `localhost:4000`.
 
-Troubleshooting:
+### Troubleshooting
+
+Build:
 ```shell
 bundle exec jekyll build --trace --verbose
 bundle exec jekyll serve --trace --verbose
 ```
 
+Installation:
+```shell
+bundle exec jekyll serve
+[...]
+jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer
+/usr/lib/ruby/gems/3.0.0/gems/pathutil-0.16.2/lib/pathutil.rb:502:in `read': no implicit conversion of Hash into Integer (TypeError)
+        from /usr/lib/ruby/gems/3.0.0/gems/pathutil-0.16.2/lib/pathutil.rb:502:in `read'
+[...]
+```
+Solution:
+```shell
+rbenv local 2.7.3
+```
 
 ## Contributing
 
