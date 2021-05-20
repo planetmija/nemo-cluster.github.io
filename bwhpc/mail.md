@@ -43,8 +43,7 @@ I confirm that I have read the following documents and agree with the terms and 
 With best regards,<br/>
 [NAME]<br/>
 <br/>
-PS: This mail was generated automatically.
-        </p>
+PS: This mail was generated automatically.</p>
         <button class="button is-link is-light" onclick="copyToClipboard('mail')">Copy</button>
     </div>
   </div>

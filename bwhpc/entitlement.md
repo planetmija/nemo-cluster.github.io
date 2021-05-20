@@ -48,17 +48,18 @@ Please fill out the following form.
 </div>
 <div class="field is-horizontal">
     <div class="field-label is-normal">
-        <label class="label">User ID</label>
+        <label class="label">UserID/Username</label>
     </div>
     <div class="field-body">
         <div class="field">
             <p class="control is-expanded has-icons-left">
-                <input class="input" type="text" name="uid" id="uid" placeholder="User ID" required>
+                <input class="input" type="text" name="uid" id="uid" placeholder="UserID/Username" required>
                 <span class="icon is-small is-left">
                     <i class="fas fa-user"></i>
                 </span>
             </p>
-            <p class="help">Username you got from the University of Freiburg</p>
+            <p class="help">Your University ID that you use to login to <a href="https://myaccount.uni-freiburg.de/" target="_blank">myAccount</a>.
+            </p>
         </div>
     </div>
 </div>
