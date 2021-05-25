@@ -20,7 +20,10 @@ The bwUniCluster is a part the overall bwHPC strategy of the state of Baden-Wür
 highest-performance computing in research and education. It is complemented by its sibling bwForClusters,
 which offer computational resources to specific scientific communities.
 
-![bwUniCluster](/img/bwuni.jpg "bwUniCluster (Simon Raffeiner/SCC)"){:width="600px" .center-image}
+![bwUniCluster](/img/bwuni.jpg "bwUniCluster (Copyright: Simon Raffeiner/SCC)"){:width="600px" .center-image}
+
+{:.image-caption}
+bwUniCluster (Copyright: Simon Raffeiner/SCC)
 
 ## Further Information
 
