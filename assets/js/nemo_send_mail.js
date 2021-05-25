@@ -21,12 +21,3 @@ function sendMail() {
     message = encodeURIComponent(message);
     window.location.href = 'mailto:nutzerservice@rz.uni-freiburg.de?subject=Request for bwUniCluster/bwForCluster Entitlements&body=' + message;
 };
-
-function copyToClipboard(id) {
-    var r = document.createRange();
-    r.selectNode(document.getElementById(id));
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(r);
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-};
