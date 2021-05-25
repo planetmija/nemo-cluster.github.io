@@ -31,5 +31,5 @@ Besides the [general](/support/) information please try to describe you problem/
 Please write a ticket to the general HPC queue:
 [hpc-support@hpc.uni-freiburg.de](mailto:hpc-support@hpc.uni-freiburg.de)
 
-Alternatively you can contact the [central ticket system](https://wiki.bwhpc.de/e/BwUniCluster_2.0_Support){:target="_blank"}.
+Alternatively you can contact the [central ticket system](https://bw-support.scc.kit.edu/){:target="_blank"}.
 When using the central ticket system, it is important to name the cluster you have a question about.
