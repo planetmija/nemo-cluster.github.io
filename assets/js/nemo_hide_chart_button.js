@@ -58,22 +58,22 @@ $(function () {
         }
     });
     // RV
-    var chartt = $('#nemo_rv_usage').highcharts(),
-        $buttont = $('#button_rv');
-    $buttont.click(function () {
-        var seriest = chartt.series[0];
-        if (seriest.visible) {
-            $(chartt.series).each(function () {
+    var chartr = $('#nemo_rv_usage').highcharts(),
+        $buttonr = $('#button_rv');
+    $buttonr.click(function () {
+        var seriesr = chartr.series[0];
+        if (seriesr.visible) {
+            $(chartr.series).each(function () {
                 this.setVisible(false, false);
             });
-            chartt.redraw();
-            $buttont.html('Show all projects');
+            chartr.redraw();
+            $buttonr.html('Show all projects');
         } else {
-            $(chartt.series).each(function () {
+            $(chartr.series).each(function () {
                 this.setVisible(true, false);
             });
-            chartt.redraw();
-            $buttont.html('Hide all projects');
+            chartr.redraw();
+            $buttonr.html('Hide all projects');
         }
     });
 });
