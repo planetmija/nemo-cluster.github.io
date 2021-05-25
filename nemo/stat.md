@@ -1,23 +1,24 @@
 ---
-layout: page
-title: NEMO Usage Statistics
+title: NEMO Status and Usage Statistics
+toc: true
 ---
 
-{% include highcharts.html %}
+# NEMO Status and Usage Statistics
 
-# NEMO Status and Queue
+{% include highcharts.html %}
 
 {% if site.data.nemo_status.status and site.data.nemo_status.title and site.data.nemo_status.text %}
   <article class="message is-{{site.data.nemo_status.status }}">
     <div class="message-header">
       <p>{{ site.data.nemo_status.title }}</p>
-      <!-- <button class="delete" aria-label="delete"></button> -->
     </div>
     <div class="message-body">
       {{ site.data.nemo_status.text }}
     </div>
   </article>
 {% endif %}
+
+## NEMO Queue
 
 <p>
 <div class="card">
@@ -33,6 +34,8 @@ title: NEMO Usage Statistics
   </div>
 </div>
 </p>
+
+## NEMO Job Walltimes
 
 <p>
 <div class="card">
@@ -54,14 +57,22 @@ title: NEMO Usage Statistics
 <div class="box" id="nemo_today_usage" style="height: 600px"></div>
 <div class="box" id="nemo_day_usage" style="height: 600px"></div>
 
+### NEMO Usage from Sites
+
 <div class="box" id="nemo_site_usage" style="height: 600px"></div>
 <button id="button_site" style="position:relative;top:-20px">Hide all sites</button>
+
+### NEMO Usage from Fields
 
 <div class="box" id="nemo_field_usage" style="height: 600px"></div>
 <button id="button_field" style="position:relative;top:-20px">Hide all fields</button>
 
+### NEMO Usage from Virtual Research Environments (VM)
+
 <div class="box" id="nemo_type_usage" style="height: 600px"></div>
 <button id="button_type" style="position:relative;top:-20px">Hide all types</button>
+
+### NEMO Usage from Projects
 
 <div class="box" id="nemo_rv_usage" style="height: 1000px"></div>
 <button id="button_rv" style="position:relative;top:-20px">Hide all projects</button>
