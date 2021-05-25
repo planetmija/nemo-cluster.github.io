@@ -20,8 +20,8 @@ title: bwHPC Entitlements
 
 To use the bwUniCluster or bwForCluster you'll need an entitlement, which will be connected to your university account.
 
-The bwForCluster entitlement you'll need for registering to the bwForClusters in Freiburg, Heidelberg/Mannheim, Tübingen and Ulm.
-The bwUniCluster entitlement is necessary for registering at the bwUniCluster in Karlsruhe.
+- The **bwForCluster** entitlement you'll need for registering to the bwForClusters in Freiburg, Heidelberg/Mannheim, Tübingen and Ulm.
+- The **bwUniCluster** entitlement is necessary for registering at the bwUniCluster in Karlsruhe.
 
 This is a required legal procedure. You should get the entitlements within two working days.
 If not, please [contact](/privacy-policy/) us.
