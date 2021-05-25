@@ -1,5 +1,6 @@
 ---
 title: bwForCluster NEMO
+toc: true
 ---
 
 # bwForCluster NEMO
@@ -18,7 +19,7 @@ For a detailed NEMO documentation refer to the
 ## Software and Operating System
 
 - Operating System: [CentOS 7](https://en.wikipedia.org/wiki/CentOS){:target="_blank"} (similar to RHEL 7)
-- Queuing System: [MOAB/Torque](http://docs.adaptivecomputing.com){:target="_blank"} (see
+- Queuing System: [MOAB/Torque](http://docs.adaptivecomputing.com/9-1-3/suite/help.htm){:target="_blank"} (see
 [Batch Jobs](https://wiki.bwhpc.de/e/Batch_Jobs){:target="_blank"})
 - (Scientific) Libraries and Software: [Environment Modules](https://wiki.bwhpc.de/e/Environment_Modules){:target="_blank"}
 
@@ -70,3 +71,11 @@ attached via Omni-Path to all cluster nodes. For non-blocking
 communication 20 islands with 44 nodes and 880 cores each are available.
 The islands are connected with a blocking factor of 1:11 (or 400 Gbit/s
 for 44 nodes).
+
+
+## News and Newsletters
+
+We publish news and other important information around NEMO and Freiburg-specific HPC topics on our
+[newsletters](/newsletters/) and [news](/news/) pages.
+To subscribe to our the news mailing list, please send an e-mail to to
+[hpc-news-subscribe@hpc.uni-freiburg.de](mailto:hpc-news-subscribe@hpc.uni-freiburg.de).
