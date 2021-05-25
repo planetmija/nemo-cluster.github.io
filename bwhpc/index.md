@@ -65,18 +65,3 @@ advanced topics for using the
 If you would like to have a course you can\'t find on the course list,
 please send us a request for that and who is interested in which topics.
 We can then try to provide this course at one site.
-
-A prerequisite for support is the use of our ticket system
-(see [contact](/privacy-policy/))
-instead of personal messages. Otherwise individual requests might be lost and can
-not be tracked by other team members. We encourage the use of the
-official university email address clearly stating your affiliation
-(\<e-mail-ID@\<name-of-uni\>.de), because we receive mails from the
-whole state. For Freiburg users this can be set via preferred e-mail though
-[myaccount](https://myaccount.uni-freiburg.de){:target="_blank"}.
-
-We publish news and other important information on our
-newsletter and [news](/news/) page.
-
-To subscribe to our the news mailing list, please send an e-mail to to
-[hpc-news-subscribe@hpc.uni-freiburg.de](mailto:hpc-news-subscribe@hpc.uni-freiburg.de).
