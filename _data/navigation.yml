@@ -46,7 +46,7 @@
       link: /bwunicluster/support/
     - name: bwForClusters / bwHPC / HPC
       link: /bwhpc/support/
-- name: News
+- name: News and Events
   link: /news/
   dropdown:
     - name: Newsletters
