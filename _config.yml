@@ -46,6 +46,7 @@ sass:
 
 feed:
   categories:
+    - events
     - news
     - newsletters
     - social
