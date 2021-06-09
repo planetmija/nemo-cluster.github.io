@@ -9,7 +9,7 @@
             {% if item.link %}
             <a href="{{ item.link | relative_url }}" class="{% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
             {% elsif item.extlink %}
-            <a href="{{ item.extlink }}" target="_blank"><em>{{ item.name }}</em></a>
+            <a href="{{ item.extlink }}" target="_blank"><em>{{ item.name }}<sup>(*)</sup></em></a>
             {% endif %}
             {% if item.items %}
             <ul>
@@ -17,7 +17,7 @@
                 {% if subitem.link %}
                 <li><a href="{{ subitem.link | relative_url }}" class="{% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a></li>
                 {% elsif subitem.extlink %}
-                <li><a href="{{ subitem.extlink }}" target="_blank"><em>{{ subitem.name }}</em></a></li>
+                <li><a href="{{ subitem.extlink }}" target="_blank"><em>{{ subitem.name }}<sup>(*)</sup></em></a></li>
                 {% endif %}
                 {% endfor %}
             </ul>

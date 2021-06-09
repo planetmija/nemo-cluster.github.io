@@ -21,14 +21,14 @@
                         {% if item.link %}
                         <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
                         {% elsif item.extlink %}
-                        <a href="{{ item.extlink }}" class="navbar-link"><em>{{ item.name }}</em></a>
+                        <a href="{{ item.extlink }}" class="navbar-link"><em>{{ item.name }}<sup>(*)</sup></em></a>
                         {% endif %}
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
                             {% if subitem.link %}
                             <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
                             {% elsif subitem.extlink %}
-                            <a href="{{ subitem.extlink }}" class="navbar-item" target="_blank"><em>{{ subitem.name }}</em></a>
+                            <a href="{{ subitem.extlink }}" class="navbar-item" target="_blank"><em>{{ subitem.name }}<sup>(*)</sup></em></a>
                             {% endif %}
                             {% endfor %}
                         </div>
