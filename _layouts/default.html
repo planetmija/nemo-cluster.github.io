@@ -23,12 +23,7 @@
         {% include hero.html %}
     {% endunless %}
     {% if page.nemo_status %}
-        {% if site.data.nemo_status.status != "success" and site.data.nemo_status.title and site.data.nemo_status.text %}
-        <article class="notification is-{{site.data.nemo_status.status }}">
-            <button class="delete" aria-label="delete"></button>
-            {{ site.data.nemo_status.title }}: {{ site.data.nemo_status.text }}
-        </article>
-        {% endif %}
+        {% include status.html %}
     {% endif %}
     {% include callouts.html %}
     <section class="section">
@@ -49,6 +44,9 @@
                     {% include showcase.html %}
                     {% include sponsors.html %}
                     {% include gallery.html %}
+                    {% if page.nemo_events %}
+                        {% include events.html %}
+                    {% endif %}
                     {{ content }}
                 </div>
                 {% if page.show_sidebar %}
@@ -56,10 +54,8 @@
                     {% if site.posts %}
                         {% include latest-posts.html %}
                     {% endif %}
-                    {% if page.twitter_posts and page.twitter_lang and page.twitter_url %}
-                        <a class="twitter-timeline" data-tweet-limit="{{page.twitter_posts}}" data-lang="{{page.twitter_lang}}"
-                            data-dnt="true" data-chrome="nofooter noborders noscrollbar" href="{{page.twitter_url}}">Tweets by nemo_cluster</a><!--data-theme="dark"-->
-                        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {% if page.twitter_posts %}
+                        {% include twitter.html %}
                     {% endif %}
                 </div>
                 {% endif %}
