@@ -1,0 +1,11 @@
+{% if site.data.nemo_status.status != "success" and site.data.nemo_status.title and site.data.nemo_status.text %}
+<article class="message is-{{site.data.nemo_status.status }}">
+    <div class="message-header">
+        <p>{{ site.data.nemo_status.title }}</p>
+        <button class="delete" aria-label="delete"></button>
+    </div>
+    <div class="message-body">
+        {{ site.data.nemo_status.text }}
+    </div>
+</article>
+{% endif %}
