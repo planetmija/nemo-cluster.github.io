@@ -1,7 +1,7 @@
 ---
 title: NEMO Security Update May 2021
 author: Michael
-category: social
+category: news
 tags: [NEMO, Security Update]
 date: 2021-05-03
 ---
