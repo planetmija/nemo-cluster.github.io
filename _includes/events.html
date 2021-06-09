@@ -1,0 +1,13 @@
+<div class="content">
+    <h2 id="events">Events</h2>
+</div>
+
+<div class="columns is-multiline">
+    {% for post in site.posts %}
+        {% if post.category == "event" and post.highlight %}
+            <div class="column is-6">
+            {% include post-card.html %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
