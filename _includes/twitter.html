@@ -1,0 +1,5 @@
+{% if page.twitter_posts and page.twitter_lang and page.twitter_url %}
+<a class="twitter-timeline" data-tweet-limit="{{page.twitter_posts}}" data-lang="{{page.twitter_lang}}"
+    data-dnt="true" data-chrome="nofooter noborders noscrollbar" href="{{page.twitter_url}}">Tweets by nemo_cluster</a><!--data-theme="dark"-->
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endif %}
