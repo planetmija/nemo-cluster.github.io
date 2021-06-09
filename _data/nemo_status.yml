@@ -1,10 +1,36 @@
-status: success
-title: NEMO fully operational
+---
+status: warning
+title: Login nodes reboot
 text: >
-  No problem
+  Due to a security update the login nodes will be rebooted:
+  <br/>
+  2021-06-10 18:00: login1
+  <br/>
+  2021-06-10 17:00: login2
+---
 
-# status is one of: success, warning, danger
-# multi-line text (space important!):
+## status is one of: success, warning, danger
+## multi-line text (space important!):
+## text: >
+##   This is some
+##   multi-line text
+##   <br/>
+##   force newline.
+#
+## Add examples below:
+
+# ---
+# status: success
+# title: NEMO fully operational
 # text: >
-#   This is some
-#   multi-line text
+#   No problem
+# ---
+
+# ---
+# status: warning
+# title: Login nodes reboot
+# text: >
+#   Due to a security update the login nodes will be rebooted on
+#   2021-06-10 18:00: login1
+#   2021-06-10 17:00: login2
+# ---
