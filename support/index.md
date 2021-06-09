@@ -49,6 +49,11 @@ Please always use the correct support unit and add the following Information whe
 - Who is your user at the cluster/university (username, incl. prefix e.g `fr_`)?
 - Which cluster does it concern?
 - If applicable: When did this happen (date and time) and where (node, e.g. login node, host, desktop pc, etc.)?
+- How to contact: Usually it is OK to use English and German when contacting support.
+  The support units support both languages.
+  While for the central ticket system and other clusters English is favorable to address a broader audience,
+  you can use the language which is easier for you when contacting NEMO support,
+  since all members of the ticket system speak German.
 
 Usually the first information is given automatically, when you have configured your email client correctly.
 But this info ist still necessary when you use web forms, etc.
