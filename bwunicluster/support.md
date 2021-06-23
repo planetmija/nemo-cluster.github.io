@@ -22,7 +22,7 @@ Please search the relevant information on the web pages first:
 
 ## When contacting the bwUniCluster support
 
-Besides the [general](/support/) information please try to describe you problem/question as detailled as possible.
+Besides the [general](/support/) information please try to describe your problem/question as detailled as possible.
 The following steps should be considered first.
 
 - If you start using bwUniCluster, please consider testing your job [interactively](https://wiki.bwhpc.de/e/BwUniCluster_2.0_Batch_Queues#Interactive_Jobs){:target="_blank"} fist.
