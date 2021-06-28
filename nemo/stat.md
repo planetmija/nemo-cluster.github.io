@@ -7,12 +7,22 @@ toc: true
 
 {% include highcharts.html %}
 
-{% if site.data.nemo_status.status and site.data.nemo_status.title and site.data.nemo_status.text %}
+{% if site.data.nemo_status.status
+  and site.data.nemo_status.date
+  and site.data.nemo_status.author
+  and site.data.nemo_status.title
+  and site.data.nemo_status.text %}
   <article class="message is-{{site.data.nemo_status.status }}">
     <div class="message-header">
       <p>{{ site.data.nemo_status.title }}</p>
     </div>
-    <div class="message-body">
+    <div class="message-body has-text-centered">
+      <strong>
+        Published: {{ site.data.nemo_status.date | date: "%-d %b %Y" }}
+        by
+        {{ site.data.nemo_status.author }}
+      </strong>
+      <br /><br />
       {{ site.data.nemo_status.text }}
     </div>
   </article>
