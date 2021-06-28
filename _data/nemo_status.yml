@@ -1,8 +1,23 @@
+# ---
+# status: success
+# author: HPC Team
+# date: 2021-07-02
+# title: NEMO fully operational
+# text: >
+#   Security update June applied (CentOS 7.9 revision 7).
+# ---
+
 ---
-status: success
-title: NEMO fully operational
+status: warning
+author: HPC Team
+date: 2021-06-28
+title: Login nodes reboot
 text: >
-  Security update June applied (CentOS 7.9 revision 7).
+  Due to a security update the login nodes will be rebooted:
+  <br />
+  2021-07-01 18:00: login1
+  <br />
+  2021-07-02 08:00: login2
 ---
 
 ## status is one of: success, warning, danger
@@ -10,25 +25,5 @@ text: >
 ## text: >
 ##   This is some
 ##   multi-line text
-##   <br/>
+##   <br />
 ##   force newline.
-#
-## Add examples below:
-
-# ---
-# status: success
-# title: NEMO fully operational
-# text: >
-#   No problem
-# ---
-
-# ---
-# status: warning
-# title: Login nodes reboot
-# text: >
-#   Due to a security update the login nodes will be rebooted:
-#   <br/>
-#   2021-06-10 18:00: login1
-#   <br/>
-#   2021-06-10 17:00: login2
-# ---
