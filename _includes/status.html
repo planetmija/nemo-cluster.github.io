@@ -3,12 +3,12 @@ and site.data.nemo_status.date
 and site.data.nemo_status.author
 and site.data.nemo_status.title
 and site.data.nemo_status.text %}
-<article class="message is-{{site.data.nemo_status.status }}">
+<article class="message is-{{ site.data.nemo_status.status }}">
     <div class="message-header pl-5">
         <p>{{ site.data.nemo_status.title }}</p>
         <button class="delete" aria-label="delete"></button>
     </div>
-    <div class="message-body has-text-centered">
+    <div class="message-body has-text-centered" onclick="location.href='/nemo/stat/';">
         <strong>
             Published: {{ site.data.nemo_status.date | date: "%-d %b %Y" }}
             by
