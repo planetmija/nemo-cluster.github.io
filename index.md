@@ -12,6 +12,7 @@ twitter_lang: en
 show_sidebar: true
 nemo_events: true
 nemo_status: true
+flashnews: true
 ---
 
 ## bwHPC
