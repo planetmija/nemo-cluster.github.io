@@ -1,0 +1,21 @@
+{% if site.data.flashnews.url
+and site.data.flashnews.date    
+and site.data.flashnews.author
+and site.data.flashnews.title
+and site.data.flashnews.text %}
+<article class="message is-primary">
+    <div class="message-header pl-5">
+        <p>{{ site.data.flashnews.title }}</p>
+        <button class="delete" aria-label="delete" onclick=></button>
+    </div>
+    <div class="message-body has-text-centered" onclick="location.href='{{ site.data.flashnews.url }}';">
+        <strong>
+            Published: {{ site.data.flashnews.date | date: "%-d %b %Y" }}
+            by
+            {{ site.data.flashnews.author }}
+        </strong>
+        <br /><br />
+        {{ site.data.flashnews.text }}
+    </div>
+</article>
+{% endif %}
