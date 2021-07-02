@@ -4,26 +4,48 @@
 # date: 2021-07-02
 # title: NEMO fully operational
 # text: >
-#   Security update June applied (CentOS 7.9 revision 7).
+#   Security update July applied (CentOS 7.9, Rev. 8), starting 01.07.
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-07</code>.
+# ---
+
+# ---
+# status: warning
+# author: HPC Team
+# date: 2021-06-28
+# title: Security Update July 2021
+# text: >
+#   Starting 01.07. NEMO's worker nodes will be updated.
+#   <br />
+#   For this the login nodes have to be rebooted on:
+#   <br />
+#   2021-07-01 18:00: login1
+#   <br />
+#   2021-07-02 08:00: login2
 # ---
 
 ---
 status: warning
 author: HPC Team
-date: 2021-06-28
-title: Login nodes reboot
+date: 2021-07-02
+title: No local SSD after security update
 text: >
-  Due to a security update the login nodes will be rebooted:
+  Many cluster nodes did not mount the local SSD after booting the new updated OS.
+  <code>$TMPDIR</code> are currently located on RAMDISK.
+  Keep this in mind when using this directory.
   <br />
-  2021-07-01 18:00: login1
-  <br />
-  2021-07-02 08:00: login2
+  We will try to fix this as soon as possible.
 ---
 
-## status is one of: success, warning, danger
-## multi-line text (space important!):
-## text: >
-##   This is some
-##   multi-line text
-##   <br />
-##   force newline.
+# ---
+# status: danger
+# author: HPC Team
+# date: 2021-06-28
+# title: Maintenance ...
+# text: >
+#   Start : 2021-07-01 08:00
+#   <br />
+#   End   : 2021-07-01 18:00
+# ---
+
+### status is one of: success, warning, danger
