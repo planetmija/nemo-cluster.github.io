@@ -28,6 +28,17 @@ toc: true
   </article>
 {% endif %}
 
+<article class="message is-warning">
+  <div class="message-header">
+    <p>Visibility of Queues and Statistics</p>
+    <button class="delete" aria-label="delete"></button>
+  </div>
+  <div class="message-body">
+    Queues and statistics are currently only visible when using a IP address from a university from Baden-Württemberg.
+    External access (e.g. from home) is only possible when using a VPN or tunneling your IP traffic through your university.
+  </div>
+</article>
+
 ## NEMO Queue
 
 <p>
