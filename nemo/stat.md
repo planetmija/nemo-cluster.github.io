@@ -3,9 +3,11 @@ title: NEMO Status and Usage Statistics
 toc: true
 ---
 
+{% include highcharts.html %}
+
 # NEMO Status and Usage Statistics
 
-{% include highcharts.html %}
+<p id="statinfo"></p>
 
 {% if site.data.nemo_status.status
   and site.data.nemo_status.date
@@ -28,21 +30,10 @@ toc: true
   </article>
 {% endif %}
 
-<article class="message is-warning">
-  <div class="message-header">
-    <p>Visibility of Queues and Statistics</p>
-    <button class="delete" aria-label="delete"></button>
-  </div>
-  <div class="message-body">
-    Queues and statistics are currently only visible when using a IP address from a university from Baden-Württemberg.
-    External access (e.g. from home) is only possible when using a VPN or tunneling your IP traffic through your university.
-  </div>
-</article>
-
 ## NEMO Queue
 
 <p>
-<div class="card">
+<div class="card" id="queue">
   <header class="card-header">
     <p class="card-header-title">
       NEMO Queue Information
@@ -59,7 +50,7 @@ toc: true
 ## NEMO Job Walltimes
 
 <p>
-<div class="card">
+<div class="card" id="walltime">
   <header class="card-header">
     <p class="card-header-title">
       NEMO Walltime Information of running jobs
