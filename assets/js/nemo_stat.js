@@ -15,9 +15,8 @@ $.ajax({
         },
         404: function (response) {
             console.log('Status data unavailable');
-            $('#statinfo').append('Queues and statistics are currently only visible when using a IP address from a university from Baden-Württemberg. \
-                External access (e.g. from home) is only possible when using a VPN or tunneling your IP traffic through your university. \
-                <br /><br />');
+            $('#statinfo').append('Queues and statistics are currently only visible when using IP addresses from a university from Baden-Württemberg. \
+                External access (e.g. from home) is only possible when using a VPN or tunneling your IP traffic through your university.');
             $('.contents').remove();
             $('.box').remove();
             $('.card').remove();
