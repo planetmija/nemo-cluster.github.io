@@ -1,13 +1,13 @@
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2021-07-06
-# title: NEMO fully operational
-# text: >
-#   Security update July applied (CentOS 7.9, Rev. 8).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-07</code>.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2021-07-12
+title: NEMO fully operational
+text: >
+  Security update July applied (CentOS 7.9, Rev. 8).
+  <br />
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-07</code>.
+---
 
 # ---
 # status: warning
@@ -37,17 +37,17 @@
 #   We will try to fix this as soon as possible.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2021-07-08
-title: NEMO Power Outage
-text: >
-  There was a power outage in the morning of the 08.07.2021 (short after 7 o'clock).
-  All worker nodes rebooted and all running jobs were killed instantly.
-  <br />
-  The cluster is working normally again.
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2021-07-08
+# title: NEMO Power Outage
+# text: >
+#   There has been a power outage in the morning of the 08.07.2021 (shortly after 7 o'clock).
+#   All worker nodes rebooted and all running jobs were killed instantly.
+#   <br />
+#   The cluster is working normally again.
+# ---
 
 # ---
 # status: danger
