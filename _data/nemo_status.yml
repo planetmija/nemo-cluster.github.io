@@ -25,21 +25,32 @@
 # ---
 
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
-date: 2021-07-22
-title: IMPORTANT SECURITY UPDATE
+date: 2021-07-26
+title: NEMO fully operational
 text: >
-  On 23.08. at 08:00 CEST NEMO's login nodes will be rebooted.
+  Important security update applied (CentOS 7.9, Rev. 9), fixes CVE-2021-33909.
   <br />
-  Because of an security issue this has to be done immediately. We are sorry for the short notice. Worker nodes will be rebooted on-the-fly.
-  <br />
-  2021-07-23 08:00: login1
-  <br />
-  2021-07-23 08:00: login2
-  <br />
-  2021-07-23 08:00: vis1
+  For more info see <a href="https://access.redhat.com/security/vulnerabilities/RHSB-2021-006" target="_blank">Red Hat Security Bulletin</a>.
 ---
+
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2021-07-22
+# title: IMPORTANT SECURITY UPDATE
+# text: >
+#   On 23.08. at 08:00 CEST NEMO's login nodes will be rebooted.
+#   <br />
+#   Because of an security issue this has to be done immediately. We are sorry for the short notice. Worker nodes will be rebooted on-the-fly.
+#   <br />
+#   2021-07-23 08:00: login1
+#   <br />
+#   2021-07-23 08:00: login2
+#   <br />
+#   2021-07-23 08:00: vis1
+# ---
 
 # ---
 # status: warning
