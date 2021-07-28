@@ -7,7 +7,7 @@ title: bwHPC Entitlements Mail
 
 The form should have opened your mail client with an automatically generated e-mail.
 Please send this e-mail to the user service.
-**Users are advised to use the University's e-mail address.**
+**Users are advised to use the University's e-mail address (although this is not mandatory).**
 
 If it didn't work, you can copy below text and replace \[NAME\] and \[UserID\].
 
