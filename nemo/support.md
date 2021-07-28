@@ -26,7 +26,7 @@ Please search the relevant information on the web pages first:
 Besides the [general](/support/) information please try to describe your problem/question as detailled as possible.
 The following steps should be considered first.
 
-- If you start using NEMO, please consider testing your job interactively fist `msub -I [...]`.
+- If you start using NEMO, please consider testing your job interactively first `msub -I [...]`.
 - You can always use the express queue to test if your job is running (15 min max) `msub -q express [...]`.
   - The job will be killed automatically after 15 min, if it runs longer. But that way you'll see if everything works as expected so far.
 - Please debug your jobs with `checkjob -v -v` first. If you don't understand the output, please attach it to the e-mail addressed to out ticket system.

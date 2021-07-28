@@ -25,7 +25,7 @@ Please search the relevant information on the web pages first:
 Besides the [general](/support/) information please try to describe your problem/question as detailled as possible.
 The following steps should be considered first.
 
-- If you start using bwUniCluster, please consider testing your job [interactively](https://wiki.bwhpc.de/e/BwUniCluster_2.0_Batch_Queues#Interactive_Jobs){:target="_blank"} fist.
+- If you start using bwUniCluster, please consider testing your job [interactively](https://wiki.bwhpc.de/e/BwUniCluster_2.0_Batch_Queues#Interactive_Jobs){:target="_blank"} first.
 - You can always use the [development queues](https://wiki.bwhpc.de/e/BwUniCluster_2.0_Batch_Queues){:target="_blank"} to test if your job is running.
 - Please debug your jobs first (see [Wiki](https://wiki.bwhpc.de/e/BwUniCluster_2.0_Slurm_common_Features){:target="_blank"} for more info on that).
   If you don't understand the output, please attach it to the support ticket.
