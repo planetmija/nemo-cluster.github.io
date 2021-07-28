@@ -12,6 +12,8 @@ $.ajax({
             $.getScript("/assets/js/highcharts/nemo_rv_usage.js");
             $.getScript("/assets/js/highcharts/nemo_rv_lastyear.js");
             $.getScript("/assets/js/highcharts/nemo_rv_top10.js");
+            $.getScript("/assets/js/highcharts/nemo_options.js");
+            $.getScript("/assets/js/nemo_hide_chart_button.js");
         },
         404: function (response) {
             console.log('Status data unavailable');
