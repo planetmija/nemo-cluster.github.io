@@ -9,31 +9,33 @@
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-07</code>.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2021-06-28
-# title: Security Update July 2021
-# text: >
-#   Starting 01.07. NEMO's worker nodes will be updated.
-#   <br />
-#   For this the login nodes have to be rebooted on:
-#   <br />
-#   2021-07-01 18:00: login1
-#   <br />
-#   2021-07-02 08:00: login2
-# ---
-
 ---
-status: success
+status: warning
 author: HPC Team Freiburg
-date: 2021-07-26
-title: NEMO fully operational
+date: 2021-08-03
+title: Security Update August 2021
 text: >
-  Important security update applied (CentOS 7.9, Rev. 9), fixes CVE-2021-33909.
+  Starting 03.08. NEMO's worker, vis and login nodes will be updated.
   <br />
-  For more info see Red Hat Security Bulletin: https://access.redhat.com/security/vulnerabilities/RHSB-2021-006.
+  For this the login and vis nodes have to be rebooted on:
+  <br />
+  2021-08-04 18:00: login1 + vis1
+  <br />
+  2021-08-05 08:00: login2 + vis2
+  <br />
+  Worker nodes reboot after a job finishes automatically.
 ---
+
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2021-07-26
+# title: NEMO fully operational
+# text: >
+#   Important security update applied (CentOS 7.9, Rev. 9), fixes CVE-2021-33909.
+#   <br />
+#   For more info see Red Hat Security Bulletin: https://access.redhat.com/security/vulnerabilities/RHSB-2021-006.
+# ---
 
 # ---
 # status: warning
