@@ -1,30 +1,30 @@
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2021-07-12
-# title: NEMO fully operational
-# text: >
-#   Security update July applied (CentOS 7.9, Rev. 8).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-07</code>.
-# ---
-
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
-date: 2021-08-03
-title: Security Update August 2021
+date: 2021-08-05
+title: NEMO fully operational
 text: >
-  Starting 03.08. NEMO's worker, vis and login nodes will be updated.
+  Security update August applied (CentOS 7.9, Rev. 10).
   <br />
-  For this the login and vis nodes have to be rebooted on:
-  <br />
-  2021-08-04 18:00: login1 + vis1
-  <br />
-  2021-08-05 08:00: login2 + vis2
-  <br />
-  Worker nodes reboot after a job finishes automatically.
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-08</code>.
 ---
+
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2021-08-03
+# title: Security Update August 2021
+# text: >
+#   Starting 03.08. NEMO's worker, vis and login nodes will be updated.
+#   <br />
+#   For this the login and vis nodes have to be rebooted on:
+#   <br />
+#   2021-08-04 18:00: login1 + vis1
+#   <br />
+#   2021-08-05 08:00: login2 + vis2
+#   <br />
+#   Worker nodes reboot after a job finishes automatically.
+# ---
 
 # ---
 # status: success
