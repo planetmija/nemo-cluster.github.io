@@ -30,6 +30,10 @@ toc: true
   </article>
 {% endif %}
 
+## NEMO Freed Cores
+
+<div class="box" id="nemo_cores_free" style="height: 900px"></div>
+
 ## NEMO Queue
 
 <p>
@@ -58,7 +62,7 @@ toc: true
   </header>
   <div class="card-image">
     <figure class="image is-16by9">
-      <iframe class="has-ratio" style="width: 100%" frameborder="0" src="https://cloud.bwfor.uni-freiburg.de/anon/vis/chart/66/no-layout"></iframe>
+      <iframe class="has-ratio" style="width: 100%" frameborder="0" src="https://cloud.nemo.uni-freiburg.de/anon/vis/chart/66/no-layout"></iframe>
     </figure>
   </div>
 </div>
