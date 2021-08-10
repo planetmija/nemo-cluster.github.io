@@ -13,7 +13,10 @@ $.ajax({
             $.getScript("/assets/js/highcharts/nemo_rv_usage.js");
             $.getScript("/assets/js/highcharts/nemo_rv_lastyear.js");
             $.getScript("/assets/js/highcharts/nemo_rv_top10.js");
+            $.getScript("/assets/js/highcharts/nemo_cores_queued.js");
             $.getScript("/assets/js/highcharts/nemo_cores_free.js");
+            $.getScript("/assets/js/highcharts/nemo_queue_cores.js");
+            $.getScript("/assets/js/highcharts/nemo_queue_jobs.js");
             $.getScript("/assets/js/nemo_hide_chart_button.js");
         },
         404: function (response) {
@@ -23,8 +26,6 @@ $.ajax({
             $('.contents').remove();
             $('.box').remove();
             $('.card').remove();
-            $('#nemo-queue').remove();
-            $('#nemo-job-walltimes').remove();
             $('#nemo-usage-statistics').remove();
             $('#nemo-usage-from-sites').remove();
             $('#nemo-usage-from-fields').remove();
