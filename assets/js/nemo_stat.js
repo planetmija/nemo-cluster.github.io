@@ -4,6 +4,7 @@ $.ajax({
     statusCode: {
         200: function (response) {
             $('#statinfo').remove();
+            $.getScript("/assets/js/tabs.js");
             $.getScript("/assets/js/highcharts/nemo_options.js");
             $.getScript("/assets/js/highcharts/nemo_today_usage.js");
             $.getScript("/assets/js/highcharts/nemo_day_usage.js");
@@ -23,18 +24,12 @@ $.ajax({
             console.log('Status data unavailable');
             $('#statinfo').append('Queues and statistics are currently only visible when using IP addresses from a university from Baden-Württemberg. \
                 External access (e.g. from home) is only possible when using a VPN or tunneling your IP traffic through your university.');
-            $('.contents').remove();
-            $('.box').remove();
-            $('.card').remove();
+            $('.tabs').remove();
+            $('#nemo-queue').remove();
+            $('#nemo-queue-text').remove();
             $('#nemo-usage-statistics').remove();
-            $('#nemo-usage-from-sites').remove();
-            $('#nemo-usage-from-fields').remove();
-            $('#nemo-usage-from-virtual-research-environments-vm').remove();
-            $('#nemo-usage-from-projects').remove();
-            $('#button_site').remove();
-            $('#button_field').remove();
-            $('#button_type').remove();
-            $('#button_rv').remove();
+            $('#nemo-project-usage').remove();
+            $('#tab-contentq').remove();
         },
     },
 });
