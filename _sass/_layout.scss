@@ -49,3 +49,23 @@ div.highlight {
     font-size: .8rem;
     color: light-grey;
 }
+
+// dynamic tabs (active on click)
+#tab-contentq p {
+    display: none;
+}
+#tab-contentq p.is-active {
+    display: block;
+}
+#tab-contentu p {
+    display: none;
+}
+#tab-contentu p.is-active {
+    display: block;
+}
+#tab-contentp p {
+    display: none;
+}
+#tab-contentp p.is-active {
+    display: block;
+}
