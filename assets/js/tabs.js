@@ -7,6 +7,9 @@ $(document).ready(function () {
 
     $('#tab-contentq p').removeClass('is-active');
     $('p[data-contentq="' + tab + '"]').addClass('is-active');
+
+    // target the chart and redraw
+    $('p[id="' + tab + '"]').highcharts().redraw();
   });
 
   $('#usage li').on('click', function () {
@@ -19,7 +22,7 @@ $(document).ready(function () {
     $('p[data-contentu="' + tab + '"]').addClass('is-active');
 
     // target the chart and redraw
-    $('p[data-contentu="' + tab + '"]').highcharts().redraw();
+    $('p[id="' + tab + '"]').highcharts().redraw();
   });
 
   $('#project li').on('click', function () {
@@ -32,7 +35,7 @@ $(document).ready(function () {
     $('p[data-contentp="' + tab + '"]').addClass('is-active');
 
     // target the chart and redraw
-    $('p[data-contentp="' + tab + '"]').highcharts().redraw();
+    $('p[id="' + tab + '"]').highcharts().redraw();
   });
 
 });
