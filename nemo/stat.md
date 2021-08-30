@@ -70,7 +70,7 @@ the ressource requirements of the job and historical usage (Fairshare).
     Jobs reserve resources for an amount of time which is predefined at job submit.
     The remaining reservation time is calculated and displayed in this graph.
     It shows how many cores based on the current core usage is freed in the next 6h, 2h, 24h and 48h.
-    Usually jobs end earlier then the reserved walltime.
+    Usually jobs end earlier than the reserved walltime.
   </p>
   <p data-contentq="nemo_cores_free" id="nemo_cores_free"></p>
 
