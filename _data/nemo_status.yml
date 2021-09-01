@@ -12,18 +12,26 @@
 ---
 status: warning
 author: HPC Team Freiburg
-date: 2021-08-30
+date: 2021-09-01
 title: Security Update September 2021
 text: >
-  Starting 01.09. NEMO's worker, vis and login nodes will be updated.
+  Starting 01.09. the OS of NEMO's worker, vis and login nodes will be updated.
   <br />
-  For this the login and vis nodes have to be rebooted on:
+  The nodes will be rebooted at:
   <br />
-  2021-09-01 18:00: login1 + vis1
+  login1 : 2021-09-01 18:00 CEST (scheduled)
   <br />
-  2021-09-02 08:00: login2 + vis2
+  login2 : 2021-09-02 08:00 CEST (scheduled)
   <br />
-  Worker nodes reboot automatically after the last job finishes.
+  vis1   : 2021-09-01 11:26 CEST (done)
+  <br />
+  vis2   : 2021-09-01 11:26 CEST (done)
+  <br />
+  worker : 2021-09-01 starting 11:12 CEST (in progress)
+  <br />
+  Worker nodes reboot automatically after the last job finishes, see
+  /opt/bwhpc/os-revisions/security_update_2021-09
+  for reboot timestamps.
 ---
 
 # ---
