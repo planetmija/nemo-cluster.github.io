@@ -1,15 +1,30 @@
+# ---
+# url: /event/2021/06/09/7th-bwhpc-symposium/
+# author: HPC Team
+# date: 2021-09-15
+# title: Registration open to the 7th bwHPC-Symposium - 08.11.2021
+# text: >
+#   Registration to the 7th bwHPC Symposium is open:
+#   <br />
+#   <a href="https://www.bwhpc.de/7-bwhpc-symposium.php">https://www.bwhpc.de/7-bwhpc-symposium.php</a>
+#   <br />
+#   We are looking forward to your participation.
+#   Scientific contributions are highly appreciated.
+#   <br />
+#   Registration deadline: 25.10.2021
+# ---
+
 ---
-url: /event/2021/06/09/7th-bwhpc-symposium/
+url: https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10
 author: HPC Team
-date: 2021-07-01
-title: Registration open to the 7th bwHPC-Symposium - 08.11.2021
+date: 2021-09-15
+title: bwUniCluster 2.0 Maintenance - 11.-15.10.2021
 text: >
-  Registration to the 7th bwHPC Symposium is open:
+  bwUniCluster 2.0 Maintenance
   <br />
-  <a href="https://www.bwhpc.de/7-bwhpc-symposium.php">https://www.bwhpc.de/7-bwhpc-symposium.php</a>
+  11.10.2021 at 08:00 until 15.10.2021 at 12:00 CEST
   <br />
-  We are looking forward to your participation.
-  Scientific contributions are highly appreciated.
+  The system will not start any jobs that cannot be completed before the start of the maintenance period.
   <br />
-  Registration deadline: 25.10.2021
+  <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10</a>
 ---
