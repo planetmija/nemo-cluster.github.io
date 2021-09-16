@@ -1,13 +1,13 @@
----
-status: success
-author: HPC Team Freiburg
-date: 2021-09-02
-title: NEMO fully operational
-text: >
-  Security update September applied (CentOS 7.9, Rev. 11).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-09</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2021-09-02
+# title: NEMO fully operational
+# text: >
+#   Security update September applied (CentOS 7.9, Rev. 11).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-09</code>.
+# ---
 
 # ---
 # status: warning
@@ -62,18 +62,24 @@ text: >
 #   2021-07-23 08:00: vis1
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2021-07-02
-# title: No local SSD after security update
-# text: >
-#   Many cluster nodes did not mount the local SSD after booting the new updated OS.
-#   <code>$TMPDIR</code> is currently located on RAMDISK.
-#   Keep this in mind when using this directory.
-#   <br />
-#   We will try to fix this as soon as possible.
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2021-09-16
+title: Sporadic problems witch secondary groups
+text: >
+  Sporadic dropouts in communication with the application page for computing projects.
+  The project name "bwXY0000" is used for secondary groups in NEMO.
+  Problems which can occur:
+  <br />
+  * Login to NEMO fails with a notice to log in to the registration server.
+  <br />
+  * The registration server indicates that a requirement for the service NEMO is missing.
+  <br />
+  * Access to workspaces where the secondary group is used to allow access (ACL, setfacl).
+  <br />
+  We are working on the problem.
+---
 
 # ---
 # status: warning
