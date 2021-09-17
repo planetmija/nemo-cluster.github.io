@@ -42,16 +42,19 @@ the ressource requirements of the job and historical usage (Fairshare).
 <div class="tabs is-fullwidth" id="queue">
   <ul>
     <li class="is-active" data-tab="nemo_cores_queued">
-      <a>Queued and Free Cores</a>
+      <a>Queued/Avail Cores</a>
     </li>
     <li data-tab="nemo_cores_free">
-      <a>Available Cores within the next Hours</a>
+      <a>Future Avail Cores</a>
     </li>
     <li data-tab="nemo_queue_cores">
-      <a>Queued Cores</a>
+      <a>NEMO Job Cores</a>
     </li>
     <li data-tab="nemo_queue_jobs">
-      <a>Queued Jobs</a>
+      <a>NEMO Jobs</a>
+    </li>
+    <li data-tab="nemo_queue">
+      <a>NEMO Queue</a>
     </li>
   </ul>
 </div>
@@ -60,35 +63,43 @@ the ressource requirements of the job and historical usage (Fairshare).
   <p class="is-active" data-contentq="nemo_cores_queued">
     The outer line of this graph shows the available cores for jobs in %.
     All nodes including GPU nodes and nodes for interactive jobs are used for this calculation.
-    The inner line shows all idle jobs and their corresponding cores, which are waiting to be executed.
+    The inner line shows all idle jobs and their corresponding cores, which are waiting to be executed
+    (see Nemo Job Cores for absolute numbers).
     Fairshare, job priorities and special job requirements are not displayed in this image.
   </p>
   <p class="is-active" data-contentq="nemo_cores_queued" id="nemo_cores_queued"></p>
 
   <p data-contentq="nemo_cores_free">
-    This graph shows the current cluster reservation status and when the reservation ends.
+    This graph shows the current cluster usage and how many resources are freed within the next 6h, 2h, 24h and 48h.
     Jobs reserve resources for an amount of time which is predefined at job submit.
     The remaining reservation time is calculated and displayed in this graph.
-    It shows how many cores based on the current core usage is freed in the next 6h, 2h, 24h and 48h.
     Usually jobs end earlier than the reserved walltime.
   </p>
   <p data-contentq="nemo_cores_free" id="nemo_cores_free"></p>
 
   <p data-contentq="nemo_queue_cores">
-    These are the current core numbers in the NEMO queue.
-    Jobs are usually only temporary blocked,
-    because some dependencies are not met or a user exceeds a usage limit.
-    Please run `showq -b -v` on the cluster for the block reason.
+    These are the current job core numbers in the NEMO queue.
+    Jobs are usually only temporary blocked because some dependencies are not met or a user exceeds a usage limit and will be moved to the idle queue automatically once running jobs finish.
+    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster on the cluster for the block reason.
   </p>
   <p data-contentq="nemo_queue_cores" id="nemo_queue_cores"></p>
 
   <p data-contentq="nemo_queue_jobs">
     These are the current job numbers in the NEMO queue.
-    Jobs are usually only temporary blocked,
-    because some dependencies are not met or a user exceeds a usage limit.
-    Please run `showq -b -v` on the cluster for the block reason.
+    Jobs are usually only temporary blocked because some dependencies are not met or a user exceeds a usage limit and will be moved to the idle queue automatically once running jobs finish.
+    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster on the cluster for the block reason.
   </p>
   <p data-contentq="nemo_queue_jobs" id="nemo_queue_jobs"></p>
+
+  <p data-contentq="nemo_queue">
+    This is the NEMO job queue.
+    (*) EST in the idle queue indicates the estimated starting time for the job with the highest priority.
+    Jobs are usually only temporary blocked because some dependencies are not met or a user exceeds a usage limit and will be moved to the idle queue automatically once running jobs finish.
+    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster on the cluster for the block reason.
+  </p>
+  <p data-contentq="nemo_queue">
+    <iframe class="has-ratio" width="100%" height="600" frameborder="0" seamless src="https://cloud.bwfor.uni-freiburg.de/anon/usage/chart/nemo_queue/"></iframe>
+  </p>
 </div>
 
 
