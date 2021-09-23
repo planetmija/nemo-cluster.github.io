@@ -23,11 +23,13 @@
 ---
 status: success
 author: HPC Team Freiburg
-date: 2021-09-17
+date: 2021-09-23
 title: NEMO fully operational
 text: >
-  Problem with secondary groups fixed by our colleagues from the KIT.
-  Login and access to shared workspaces should work without temporary failures.
+  On 22.09.2021 there were some issues with the workspaces that we unfortunately could not fix completely.
+  After there were still some errors today, we had to restart the services, which unfortunately did not work as hoped.
+  Between 12:10 and 12:40 CEST there might have been errors in the communication when accessing workspaces.
+  The errors should be gone now and everything should work, if not, please contact us.
 ---
 
 # ---
