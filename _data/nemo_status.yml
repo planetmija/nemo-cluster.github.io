@@ -23,13 +23,15 @@
 ---
 status: success
 author: HPC Team Freiburg
-date: 2021-09-23
+date: 2021-09-27
 title: NEMO fully operational
 text: >
-  On 22.09.2021 there were some issues with the workspaces that we unfortunately could not fix completely.
-  After there were still some errors today, we had to restart the services, which unfortunately did not work as hoped.
-  Between 12:10 and 12:40 CEST there might have been errors in the communication when accessing workspaces.
-  The errors should be gone now and everything should work, if not, please contact us.
+  We had to restart the BeeGFS services today to make the final configuration changes.
+  Hopefully this adjustment solves the problems we've had over the last couple of days.
+  Unfortunately, not all jobs seem to have survived the restart
+  (although IO is waiting for the services to return).
+  We're sorry about that.
+  If you are still having problems, please contact us.
 ---
 
 # ---
