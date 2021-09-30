@@ -5,7 +5,7 @@ category: event
 tags: [bwHPC, HPC, Course, Training]
 date: 2021-09-29
 summary: >
-    The SCC at the KIT will be hosting an introductory and intermediate course for bwHPC.
+    The SCC at KIT will host introductory and intermediate courses for bwHPC on 21.10.2021 and 27.10.2021.
 highlight: true
 ---
 
@@ -28,4 +28,4 @@ Details and registration can be found at [https://indico.scc.kit.edu/event/2496/
 ---
 
 For any questions, please do not hesitate to contact us.
-We are looking forward to welcoming you at the courses.
+We are looking forward to welcoming you at the courses. 
