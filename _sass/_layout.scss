@@ -50,8 +50,19 @@ div.highlight {
     color: light-grey;
 }
 
+// change highcharts data table
+// change numbers display in table
 .number {
+    background-color: $table-body-background-color;
     display: table-cell;
+}
+// add data tables in bulma table container
+.highcharts-data-table {
+    @extend .table-container;
+    @extend .table;
+    @extend .is-striped;
+    @extend .is-hoverable;
+    @extend .is-fullwidth;
 }
 
 // dynamic tabs (active on click)
