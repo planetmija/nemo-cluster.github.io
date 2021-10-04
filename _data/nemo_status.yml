@@ -38,7 +38,7 @@
 status: warning
 author: HPC Team Freiburg
 date: 2021-10-04
-title: Security Update September 2021
+title: Security Update October 2021
 text: >
   Starting 04.10. the OS of NEMO's worker, vis and login nodes will be updated.
   <br />
