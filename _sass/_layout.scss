@@ -50,6 +50,10 @@ div.highlight {
     color: light-grey;
 }
 
+.number {
+    display: table-cell;
+}
+
 // dynamic tabs (active on click)
 #tab-contentq p {
     display: none;
