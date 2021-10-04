@@ -20,44 +20,44 @@
 #   For more info see Red Hat Security Bulletin: https://access.redhat.com/security/vulnerabilities/RHSB-2021-006.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2021-09-27
-title: NEMO fully operational
-text: >
-  We had to restart the BeeGFS services today to make the final configuration changes.
-  Hopefully this adjustment solves the problems we've had over the last couple of days.
-  Unfortunately, not all jobs seem to have survived the restart
-  (although IO is waiting for the services to return).
-  We're sorry about that.
-  If you are still having problems, please contact us.
----
-
 # ---
-# status: warning
+# status: success
 # author: HPC Team Freiburg
-# date: 2021-09-01
-# title: Security Update September 2021
+# date: 2021-09-27
+# title: NEMO fully operational
 # text: >
-#   Starting 01.09. the OS of NEMO's worker, vis and login nodes will be updated.
-#   <br />
-#   The nodes will be rebooted at:
-#   <br />
-#   login1 : 2021-09-01 18:00 CEST (scheduled)
-#   <br />
-#   login2 : 2021-09-02 08:00 CEST (scheduled)
-#   <br />
-#   vis1   : 2021-09-01 11:26 CEST (done)
-#   <br />
-#   vis2   : 2021-09-01 11:26 CEST (done)
-#   <br />
-#   worker : 2021-09-01 starting 11:12 CEST (in progress)
-#   <br />
-#   Worker nodes reboot automatically after the last job finishes, see
-#   /opt/bwhpc/os-revisions/security_update_2021-09
-#   for reboot timestamps.
+#   We had to restart the BeeGFS services today to make the final configuration changes.
+#   Hopefully this adjustment solves the problems we've had over the last couple of days.
+#   Unfortunately, not all jobs seem to have survived the restart
+#   (although IO is waiting for the services to return).
+#   We're sorry about that.
+#   If you are still having problems, please contact us.
 # ---
+
+---
+status: warning
+author: HPC Team Freiburg
+date: 2021-10-04
+title: Security Update September 2021
+text: >
+  Starting 04.10. the OS of NEMO's worker, vis and login nodes will be updated.
+  <br />
+  The nodes will be rebooted at:
+  <br />
+  login1 : 2021-10-05 18:00 CEST (scheduled)
+  <br />
+  login2 : 2021-10-06 08:00 CEST (scheduled)
+  <br />
+  vis1   : 2021-10-04 11:00 CEST (done)
+  <br />
+  vis2   : 2021-10-04 11:00 CEST (done)
+  <br />
+  worker : 2021-10-04 starting 11:00 CEST (in progress)
+  <br />
+  Worker nodes reboot automatically after the last job finishes, see
+  /opt/bwhpc/os-revisions/security_update_2021-10
+  for reboot timestamps.
+---
 
 # ---
 # status: warning
