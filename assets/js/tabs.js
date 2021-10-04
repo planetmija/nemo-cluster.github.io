@@ -6,6 +6,7 @@ $(document).ready(function () {
     $(this).addClass('is-active');
 
     $('#tab-contentq p').removeClass('is-active');
+    $('#tab-contentq div.highcharts-data-table').hide();
     $('p[data-contentq="' + tab + '"]').addClass('is-active');
 
     // target the chart and redraw
@@ -19,6 +20,7 @@ $(document).ready(function () {
     $(this).addClass('is-active');
 
     $('#tab-contentu p').removeClass('is-active');
+    $('#tab-contentu div.highcharts-data-table').hide();
     $('p[data-contentu="' + tab + '"]').addClass('is-active');
 
     // target the chart and redraw
@@ -32,6 +34,7 @@ $(document).ready(function () {
     $(this).addClass('is-active');
 
     $('#tab-contentp p').removeClass('is-active');
+    $('#tab-contentp div.highcharts-data-table').hide();
     $('p[data-contentp="' + tab + '"]').addClass('is-active');
 
     // target the chart and redraw
