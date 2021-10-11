@@ -3,7 +3,12 @@ and site.data.flashnews.date
 and site.data.flashnews.author
 and site.data.flashnews.title
 and site.data.flashnews.text %}
+
+{% if site.data.flashnews.status %}
+<article class="message is-{{site.data.flashnews.status}}">
+{% else %}
 <article class="message is-primary">
+{% endif %}
     <div class="message-header pl-5">
         <p>{{ site.data.flashnews.title }}</p>
         <button class="delete" aria-label="delete" onclick=></button>
