@@ -11,11 +11,13 @@
 #   We are looking forward to your participation.
 #   Scientific contributions are highly appreciated.
 #   <br />
-#   Registration deadline: 25.10.2021
+#   <br />  
+#   <strong>Registration deadline: 25.10.2021</strong>
 # ---
 
 ---
 url: https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10
+status: warning
 author: HPC Team
 date: 2021-09-15
 title: bwUniCluster 2.0 Maintenance - 11.-15.10.2021
@@ -28,3 +30,5 @@ text: >
   <br />
   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10</a>
 ---
+
+### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
