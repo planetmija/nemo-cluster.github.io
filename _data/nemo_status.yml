@@ -2,7 +2,7 @@
 status: success
 author: HPC Team Freiburg
 date: 2021-10-06
-title: NEMO fully operational
+title: 'NEMO: normal operation'
 text: >
   Security update October applied (CentOS 7.9, Rev. 12).
   <br />
@@ -13,7 +13,7 @@ text: >
 # status: success
 # author: HPC Team Freiburg
 # date: 2021-07-26
-# title: NEMO fully operational
+# title: 'NEMO: normal operation'
 # text: >
 #   Important security update applied (CentOS 7.9, Rev. 9), fixes CVE-2021-33909.
 #   <br />
@@ -24,7 +24,7 @@ text: >
 # status: success
 # author: HPC Team Freiburg
 # date: 2021-09-27
-# title: NEMO fully operational
+# title: 'NEMO: normal operation'
 # text: >
 #   We had to restart the BeeGFS services today to make the final configuration changes.
 #   Hopefully this adjustment solves the problems we've had over the last couple of days.
