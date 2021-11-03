@@ -20,7 +20,7 @@ In the main part, the use of NumPy, Pandas and parallel Dask for Machine Learnin
 In this respect, the course is suitable for beginners and advanced students with a focus on parallel computing.
 
 Access is via browser or WebEx client at:
-https://hs-esslingen.webex.com/hs-esslingen/j.php?MTID=mf732ffb8d2533e174c4cb6d545f5344a
+[WebEx Link](https://hs-esslingen.webex.com/hs-esslingen/j.php?MTID=mf732ffb8d2533e174c4cb6d545f5344a)
 
 The workshop is organized by the HS Esslingen, the University of Konstanz and the KIT.
 An account on the bwUniCluster is helpful, access to a JupyterHub with a (Conda) installation of the above mentioned packages is necessary.
