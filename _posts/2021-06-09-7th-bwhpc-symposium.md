@@ -7,7 +7,7 @@ date: 2021-06-09
 summary: >
     The 7th bwHPC Symposium will take place on November 8,
     2021 and will be hosted at the University of Ulm.
-highlight: true
+highlight: false
 ---
 
 The 7th bwHPC Symposium will take place this year on
