@@ -6,7 +6,7 @@ tags: [bwHPC, HPC, Course, Training]
 date: 2021-11-03
 summary: >
     The bwHPC project cordially invites you to the workshop "Python Data Analysis with Dask, Pandas on JupyterHub" on 11.11.2021.
-highlight: true
+highlight: false
 ---
 
 The bwHPC project cordially invites you to the workshop
