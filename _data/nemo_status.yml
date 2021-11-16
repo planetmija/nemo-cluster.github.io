@@ -1,13 +1,15 @@
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2021-11-04
-# title: 'NEMO: normal operation'
-# text: >
-#   Security update November applied (CentOS 7.9, Rev. 13).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-11</code>.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2021-11-16
+title: 'NEMO: normal operation'
+text: >
+  Login to NEMO fixed again.
+  <br />
+  Security update November applied (CentOS 7.9, Rev. 13).
+  <br />
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-11</code>.
+---
 
 # ---
 # status: success
@@ -59,14 +61,14 @@
 #   for reboot timestamps.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2021-11-16
-title: Login to NEMO disrupted
-text: >
-  Login to the NEMO cluster is currently disrupted outside the university.
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2021-11-16
+# title: Login to NEMO disrupted
+# text: >
+#   Login to the NEMO cluster is currently disrupted outside the university.
+# ---
 
 # ---
 # status: warning
