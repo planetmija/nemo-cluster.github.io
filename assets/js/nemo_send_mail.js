@@ -4,10 +4,10 @@ function sendMail() {
     var message = 'Dear User Support,\n\n'
         + 'my name is '
         + name
-        + ' and I hereby request the entitlements\n\n'
+        + ' and I hereby apply for the entitlements\n\n'
         + '* bwUniCluster\n'
         + '* bwForCluster\n\n'
-        + 'to be given to my userid/username\n\n'
+        + 'for my user ID/user name\n\n'
         + uid
         + '\n\nI confirm that I have read the following documents and agree '
         + 'with the terms and conditions:\n\n'

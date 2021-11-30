@@ -24,12 +24,12 @@ Please send this e-mail to [nutzerservice@rz.uni-freiburg.de](mailto:nutzerservi
     <div class="field is-grouped">
       <p id="mail" data-html="true">Dear User Support,<br/>
 <br/>
-my name is [NAME] and I hereby request the entitlements<br/>
+my name is [NAME] and I hereby apply for the entitlements<br/>
 <br/>
 * bwUniCluster<br/>
 * bwForCluster<br/>
 <br/>
-to be given to my userid/username<br/>
+for my user ID/user name<br/>
 <br/>
 [UserID]<br/>
 <br/>
