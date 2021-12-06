@@ -6,7 +6,7 @@ tags: [bwHPC, HPC, Course, Training]
 date: 2021-11-11
 summary: >
     The SCC at KIT will host introductory and intermediate courses for bwHPC on 24.11.2021 and 01.12.2021.
-highlight: true
+highlight: false
 ---
 
 The Steinbuch Centre for Computing (SCC) at the Karlsruhe Institute of Technology (KIT) will be hosting the following courses.
