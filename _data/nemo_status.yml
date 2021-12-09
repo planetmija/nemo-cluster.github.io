@@ -1,13 +1,13 @@
----
-status: success
-author: HPC Team Freiburg
-date: 2021-12-02
-title: 'NEMO: normal operation'
-text: >
-  Security update December applied (CentOS 7.9, Rev. 14).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-12</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2021-12-02
+# title: 'NEMO: normal operation'
+# text: >
+#   Security update December applied (CentOS 7.9, Rev. 14).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2021-12</code>.
+# ---
 
 # ---
 # status: success
@@ -20,19 +20,18 @@ text: >
 #   For more info see Red Hat Security Bulletin: https://access.redhat.com/security/vulnerabilities/RHSB-2021-006.
 # ---
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2021-09-27
-# title: 'NEMO: normal operation'
-# text: >
-#   We had to restart the BeeGFS services today to make the final configuration changes.
-#   Hopefully this adjustment solves the problems we've had over the last couple of days.
-#   Unfortunately, not all jobs seem to have survived the restart
-#   (although IO is waiting for the services to return).
-#   We're sorry about that.
-#   If you are still having problems, please contact us.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2021-12-09
+title: 'NEMO: normal operation'
+text: >
+  Rollback to CentOS 7.9, Rev. 13
+  <br />
+  Some users reported problems with MPI and Omin-Path.
+  Since we haven't found any other source of errors at the moment,
+  we have decided to rollback to revision 13 (Security Update November, 02.11.2021).
+---
 
 # ---
 # status: warning
