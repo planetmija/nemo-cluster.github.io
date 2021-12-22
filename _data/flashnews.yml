@@ -31,4 +31,16 @@
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10</a>
 # ---
 
+---
+url: /
+status: warning
+author: HPC Team
+date: 2021-12-22
+title: Users from Tübingen will not be able to log in to NEMO on 03.01.2022.
+text: >
+  The Identity Provider (IdP) in Tübingen will be in maintenance on 03.01.2022.
+  Users from Tübingen will therefore not be able to log in to services in BW including NEMO on this day.
+  Jobs will still be executed and started, so start your jobs in time before the date.
+---
+
 ### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
