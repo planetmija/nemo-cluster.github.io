@@ -33,10 +33,10 @@ toc: true
 ## NEMO Queue
 
 <p id="nemo-queue-text">
-The following graphs show the current status of the NEMO queue.
-These graphs just give some rudimentary estimation of the current queue state.
-The start of individual jobs depends on the current cluster usage,
-the ressource requirements of the job and historical usage (Fairshare).
+The following diagrams show the current status of the NEMO queue.
+These diagrams give only a rudimentary estimate of the current status of the queue.
+The start of each job depends on the current cluster utilization,
+the resource requirements of the job and the historical usage (fairshare).
 </p>
 
 <div class="tabs is-fullwidth" id="queue">
@@ -62,40 +62,39 @@ the ressource requirements of the job and historical usage (Fairshare).
 <div id="tab-contentq">
   <p class="is-active" data-contentq="nemo_cores_queued">
     The outer line of this graph shows the available cores for jobs in %.
-    All nodes including GPU nodes and nodes for interactive jobs are used for this calculation.
-    The inner line shows all idle jobs and their corresponding cores, which are waiting to be executed
-    (see Nemo Job Cores for absolute numbers).
-    Fairshare, job priorities and special job requirements are not displayed in this image.
+    All nodes, including GPU nodes and nodes for interactive jobs, are used for this calculation.
+    The inner line shows all idle jobs and the cores they require as a percentage (see Nemo Job Cores for absolute numbers).
+    Fairshare, job priorities and special job requirements are not considered in this image.
   </p>
   <p class="is-active" data-contentq="nemo_cores_queued" id="nemo_cores_queued"></p>
 
   <p data-contentq="nemo_cores_free">
-    This graph shows the current cluster usage and how many resources are freed within the next 6h, 2h, 24h and 48h.
-    Jobs reserve resources for an amount of time which is predefined at job submit.
-    The remaining reservation time is calculated and displayed in this graph.
-    Usually jobs end earlier than the reserved walltime.
+    This diagram shows the current cluster utilization and how many resources will be free in the next 6h, 12h, 24h and 48h.
+    Jobs reserve resources for a certain time, which is specified when the job is placed.
+    The remaining runtime of jobs is calculated and displayed in this diagram.
+    Normally, jobs end earlier than the reserved time, so only the worst case is shown here.
   </p>
   <p data-contentq="nemo_cores_free" id="nemo_cores_free"></p>
 
   <p data-contentq="nemo_queue_cores">
     These are the current job core numbers in the NEMO queue.
-    Jobs are usually only temporary blocked because some dependencies are not met or a user exceeds a usage limit and will be moved to the idle queue automatically once running jobs finish.
-    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster on the cluster for the block reason.
+    Jobs are usually temporarily blocked because some dependencies are not met or a user exceeds a usage limit and are automatically moved to the idle job queue once the running jobs are finished.
+    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster to determine the reason for the block.
   </p>
   <p data-contentq="nemo_queue_cores" id="nemo_queue_cores"></p>
 
   <p data-contentq="nemo_queue_jobs">
     These are the current job numbers in the NEMO queue.
-    Jobs are usually only temporary blocked because some dependencies are not met or a user exceeds a usage limit and will be moved to the idle queue automatically once running jobs finish.
-    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster on the cluster for the block reason.
+    Jobs are usually temporarily blocked because some dependencies are not met or a user exceeds a usage limit and are automatically moved to the idle job queue once the running jobs are finished.
+    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster to determine the reason for the block.
   </p>
   <p data-contentq="nemo_queue_jobs" id="nemo_queue_jobs"></p>
 
   <p data-contentq="nemo_queue">
     This is the NEMO job queue.
-    (*) EST in the idle queue indicates the estimated starting time for the job with the highest priority.
-    Jobs are usually only temporary blocked because some dependencies are not met or a user exceeds a usage limit and will be moved to the idle queue automatically once running jobs finish.
-    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster on the cluster for the block reason.
+    (*) EST in the queue shows the expected start time for the job with the highest priority.
+    Jobs are usually temporarily blocked because some dependencies are not met or a user exceeds a usage limit and are automatically moved to the idle job queue once the running jobs are finished.
+    Please run <code>showq -b -v</code> or <code>checkjob -v JobID</code> on the cluster to determine the reason for the block.
   </p>
   <p data-contentq="nemo_queue">
     <iframe class="has-ratio" width="100%" height="600" frameborder="0" seamless src="https://cloud.bwfor.uni-freiburg.de/anon/usage/chart/nemo_queue/"></iframe>
