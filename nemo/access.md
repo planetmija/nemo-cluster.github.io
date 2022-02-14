@@ -72,7 +72,7 @@ For a **detailed** registration process consult the
 
 ### Registration Process Scheme
 
-![NEMO Access Workflow](/img/access-workflow.png "NEMO Access Workflow"){:width="600px"}
+![NEMO Access Workflow](/img/access-workflow.png "NEMO Access Workflow")
 
 ## Login and Password Reset
 
