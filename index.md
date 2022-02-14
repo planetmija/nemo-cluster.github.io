@@ -1,7 +1,7 @@
 ---
 layout: page
 title: bwForCluster NEMO
-subtitle: Research Cluster for N_euroscience, E_lementary Particle Physics, M_icrosystems Engineering and M_aterials Science (NEMO)
+subtitle: Research Cluster for Neuroscience, Elementary Particle Physics, Microsystems Engineering and Materials Science (NEMO)
 callouts: home_callouts
 hide_hero: false
 hero_image: /img/nemo.jpg
