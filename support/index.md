@@ -32,9 +32,9 @@ Please try to use your work email address if it is possible. That way we can see
     <button class="delete" aria-label="delete"></button>
   </div>
   <div class="message-body">
-    We advise you to use your university email address as the "preferred" address. 
-    You can change that in <a href="https://myaccount.uni-freiburg.de/" target="_blank">myAccount</a>.
-    The "preferred" email ist used within bwHPC.
+    We recommend that you use your university email address as your "preferred" address.
+    You can change this in <a href="https://myaccount.uni-freiburg.de/" target="_blank">myAccount</a>.
+    The "preferred" email address is used within the bwHPC.
   </div>
 </article>
 
