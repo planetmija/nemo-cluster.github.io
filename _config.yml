@@ -18,6 +18,8 @@ footer_menu: footer_menu
 hide_share_buttons: true
 # theme_color: '#008cba'
 # fixed_navbar: top
+# highcharts version
+hcver: 9.3.3
 
 plugins:
   - jekyll-sitemap
