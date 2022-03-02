@@ -31,16 +31,16 @@
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10</a>
 # ---
 
----
-url: /
-status: info
-author: HPC Team
-date: 2021-12-20
-title: Singularity is only supported in version 3.8.
-text: >
-  Since GO had a security-critical vulnerability, we had to recompile Singularity.
-  All older versions are thus disabled as of today.
-  If you have problems with the new version, please contact us.
----
+# ---
+# url: /
+# status: info
+# author: HPC Team
+# date: 2021-12-20
+# title: Singularity is only supported in version 3.8.
+# text: >
+#   Since GO had a security-critical vulnerability, we had to recompile Singularity.
+#   All older versions are thus disabled as of today.
+#   If you have problems with the new version, please contact us.
+# ---
 
 ### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
