@@ -91,7 +91,7 @@
 # ---
 
 ---
-status: warning
+status: danger
 author: HPC Team Freiburg
 date: 2022-02-22
 title: Scheduled Power Maintenance 03.03.2022
