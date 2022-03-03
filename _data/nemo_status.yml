@@ -23,6 +23,19 @@
 #   For more info see Red Hat Security Bulletin: https://access.redhat.com/security/vulnerabilities/RHSB-2021-006.
 # ---
 
+---
+status: success
+author: HPC Team Freiburg
+date: 2022-03-03
+title: 'NEMO: normal operation'
+text: >
+  The maintenance of the uninterruptible power supply was successfully completed.
+  <br />
+  In addition, the March security update was applied (CentOS 7.9, Rev. 17).
+  <br />
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-03</code>.
+---
+
 # ---
 # status: warning
 # author: HPC Team Freiburg
@@ -90,25 +103,25 @@
 #   We are working on the problem.
 # ---
 
----
-status: danger
-author: HPC Team Freiburg
-date: 2022-02-22
-title: Scheduled Power Maintenance 03.03.2022
-text: >
-  Inspection of the data center power supply.
-  <br />
-  <br />
-  <strong>Date: 03.03.2022 6:00 - 18:00 CET</strong>
-  <br />
-  <br />
-  The complete NEMO cluster will be shut down.
-  No computing is possible during the maintenance, so submit all jobs in time.
-  Note that only jobs whose walltime fits into the time window until maintenance can start.
-  Jobs that cannot start will only be processed afterwards.
-  However, in the event of problems, the queue may have to be emptied.
-  During maintenance the operating system of the cluster is updated.
----
+# ---
+# status: danger
+# author: HPC Team Freiburg
+# date: 2022-02-22
+# title: Scheduled Power Maintenance 03.03.2022
+# text: >
+#   Inspection of the data center power supply.
+#   <br />
+#   <br />
+#   <strong>Date: 03.03.2022 6:00 - 18:00 CET</strong>
+#   <br />
+#   <br />
+#   The complete NEMO cluster will be shut down.
+#   No computing is possible during the maintenance, so submit all jobs in time.
+#   Note that only jobs whose walltime fits into the time window until maintenance can start.
+#   Jobs that cannot start will only be processed afterwards.
+#   However, in the event of problems, the queue may have to be emptied.
+#   During maintenance the operating system of the cluster is updated.
+# ---
 
 # ---
 # status: warning
