@@ -15,21 +15,23 @@
 #   <strong>Registration deadline: 25.10.2021</strong>
 # ---
 
-# ---
-# url: https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10
-# status: warning
-# author: HPC Team
-# date: 2021-09-15
-# title: bwUniCluster 2.0 Maintenance - 11.-15.10.2021
-# text: >
-#   bwUniCluster 2.0 Maintenance
-#   <br />
-#   11.10.2021 at 08:00 until 15.10.2021 at 12:00 CEST
-#   <br />
-#   The system will not start any jobs that cannot be completed before the start of the maintenance period.
-#   <br />
-#   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2021-10</a>
-# ---
+---
+url: /
+status: info
+author: HPC Team Freiburg
+date: 2022-03-07
+title: bwUniCluster 2.0 Maintenance - 28.03. - 31.03.2022
+text: >
+  <strong>bwUniCluster 2.0 Maintenance</strong>
+  <br />
+  <br />
+  28.03.2022 08:00 CEST until 31.03.2022 16:00 CEST
+  <br />
+  <br />
+  The system will not start jobs that cannot be completed before the maintenance period begins.
+  <br />
+  <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03" target="_blank">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03</a>
+---
 
 # ---
 # url: /
