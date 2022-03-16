@@ -6,7 +6,7 @@ tags: [bwHPC, HPC, Course, Training, Parallel Programming, MPI]
 date: 2022-03-02
 summary: >
     The bwHPC training team at HLRS is pleased to announce its Introduction to MPI with C/C++ web seminar for bwHPC users on 15.03.2022.
-highlight: true
+highlight: false
 ---
 
 The, University of Stuttgart is pleased to announce its web seminar for bwHPC users.
