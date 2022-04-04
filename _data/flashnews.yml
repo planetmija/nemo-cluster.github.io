@@ -45,4 +45,17 @@
 #   If you have problems with the new version, please contact us.
 # ---
 
+---
+url: /news/2022/04/04/nemo-quota/
+status: success
+title: NEMO Filesystem Quota
+author: HPC Team Freiburg
+date: 2022-04-04
+text: >
+  In the past we often had questions about the quota of the HOME directory and the workspaces.
+  Since this is not easy to find out for HOME, we have created a small script that shows the quota for HOME and the workspaces.
+  Just run <code>nemoquota</code> on any NEMO node.
+---
+
 ### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
+### success, warning, danger will be shown in MOTD
