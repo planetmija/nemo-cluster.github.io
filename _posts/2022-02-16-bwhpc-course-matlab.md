@@ -6,7 +6,7 @@ tags: [bwHPC, HPC, Course, Training]
 date: 2022-02-16
 summary: >
     The bwHPC training team at HLRS is pleased to announce its Matlab on HPC web seminar for bwHPC users on 24.03.2022.
-highlight: true
+highlight: false
 ---
 
 The, University of Stuttgart is pleased to announce its web seminar for bwHPC users.
