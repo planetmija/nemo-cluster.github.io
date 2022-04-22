@@ -1,16 +1,16 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2022-04-05
-# title: 'NEMO: normal operation'
-# text: >
-#   Security update April applied (CentOS 7.9, Rev. 18).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-04</code>.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2022-04-22
+title: 'NEMO: normal operation'
+text: >
+  Security update May applied (CentOS 7.9, Rev. 19).
+  <br />
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-05</code>.
+---
 
 # ---
 # status: success
@@ -49,30 +49,30 @@
 #   If you have problems with the new version, please contact us.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2022-04-21
-title: Security Update May 2022
-text: >
-  Starting 21.04., the operating system of NEMO's worker, vis and login nodes will be updated.
-  <br />
-  The nodes will be rebooted at:
-  <br />
-  login1 : 2022-04-21 18:00 CEST (scheduled)
-  <br />
-  login2 : 2022-04-22 08:00 CEST (scheduled)
-  <br />
-  vis1   : 2022-04-21 12:00 CEST (done)
-  <br />
-  vis2   : 2022-04-21 12:00 CEST (done)
-  <br />
-  worker : 2022-04-21 starting 12:00 CEST (in progress)
-  <br />
-  Worker nodes automatically reboot after the last job finishes, see
-  /opt/bwhpc/os-revisions/security_update_2022-05
-  for reboot timestamps.
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2022-04-21
+# title: Security Update May 2022
+# text: >
+#   Starting 21.04., the operating system of NEMO's worker, vis and login nodes will be updated.
+#   <br />
+#   The nodes will be rebooted at:
+#   <br />
+#   login1 : 2022-04-21 18:00 CEST (scheduled)
+#   <br />
+#   login2 : 2022-04-22 08:00 CEST (scheduled)
+#   <br />
+#   vis1   : 2022-04-21 12:00 CEST (done)
+#   <br />
+#   vis2   : 2022-04-21 12:00 CEST (done)
+#   <br />
+#   worker : 2022-04-21 starting 12:00 CEST (in progress)
+#   <br />
+#   Worker nodes automatically reboot after the last job finishes, see
+#   /opt/bwhpc/os-revisions/security_update_2022-05
+#   for reboot timestamps.
+# ---
 
 # ---
 # status: warning
