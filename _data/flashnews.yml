@@ -50,7 +50,7 @@
 
 ---
 url: /news/2022/04/04/nemo-quota/
-status: success
+status: info
 title: NEMO Filesystem Quota
 author: HPC Team Freiburg
 motd: true
