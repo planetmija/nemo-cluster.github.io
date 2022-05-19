@@ -12,6 +12,16 @@
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-05</code>.
 # ---
 
+---
+status: success
+author: HPC Team Freiburg
+title: 'NEMO: normal operation'
+text: >
+  Reboot of login1 on 18.05. at 18:00 CEST -> successful.
+  <br />
+  CVMFS mount on login1 works again.
+---
+
 # ---
 # status: success
 # author: HPC Team Freiburg
@@ -36,15 +46,15 @@
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-03</code>.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2022-05-17
-title: 'NEMO: normal operation'
-text: >
-  Reboot of login1 on 18.05. at 18:00 CEST.
-  <br />
-  CVMFS mount on login1 is defective, so the node must be rebooted.
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2022-05-17
+# title: 'NEMO: normal operation'
+# text: >
+#   Reboot of login1 on 18.05. at 18:00 CEST.
+#   <br />
+#   CVMFS mount on login1 is defective, so the node must be rebooted.
 ---
 
 # ---
