@@ -1,16 +1,16 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2022-07-05
-title: 'NEMO: normal operation'
-text: >
-  Security update July applied (CentOS 7.9, Rev. 21).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-07</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2022-07-05
+# title: 'NEMO: normal operation'
+# text: >
+#   Security update July applied (CentOS 7.9, Rev. 21).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-07</code>.
+# ---
 
 # ---
 # status: success
@@ -46,16 +46,16 @@ text: >
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-03</code>.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2022-05-17
-# title: 'NEMO: normal operation'
-# text: >
-#   Reboot of login1 on 18.05. at 18:00 CEST.
-#   <br />
-#   CVMFS mount on login1 is defective, so the node must be rebooted.
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2022-07-05
+title: 'NEMO: normal operation'
+text: >
+  Reboot of login2 on 06.07. at 08:00 CEST.
+  <br />
+  login2 must be restarted after the security update.
+---
 
 # ---
 # status: warning
