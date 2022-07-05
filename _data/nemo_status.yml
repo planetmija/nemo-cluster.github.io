@@ -1,16 +1,16 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2022-06-09
-# title: 'NEMO: normal operation'
-# text: >
-#   Security update June applied (CentOS 7.9, Rev. 20).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-06</code>.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2022-07-05
+title: 'NEMO: normal operation'
+text: >
+  Security update July applied (CentOS 7.9, Rev. 21).
+  <br />
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-07</code>.
+---
 
 # ---
 # status: success
@@ -57,30 +57,30 @@
 #   CVMFS mount on login1 is defective, so the node must be rebooted.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2022-07-01
-title: Security Update July 2022
-text: >
-  Starting 04.07., the operating system of NEMO's worker, vis and login nodes will be updated.
-  <br />
-  The nodes will be rebooted at:
-  <br />
-  login1 : 2022-07-04 18:00 CEST (scheduled)
-  <br />
-  login2 : 2022-07-05 08:00 CEST (scheduled)
-  <br />
-  vis1   : 2022-07-04 14:20 CEST (done)
-  <br />
-  vis2   : 2022-07-04 14:20 CEST (done)
-  <br />
-  worker : 2022-07-04 starting 14:30 CEST (in progress)
-  <br />
-  Worker nodes automatically reboot after the last job finishes, see
-  /opt/bwhpc/os-revisions/security_update_2022-07
-  for reboot timestamps.
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2022-07-01
+# title: Security Update July 2022
+# text: >
+#   Starting 04.07., the operating system of NEMO's worker, vis and login nodes will be updated.
+#   <br />
+#   The nodes will be rebooted at:
+#   <br />
+#   login1 : 2022-07-04 18:00 CEST (scheduled)
+#   <br />
+#   login2 : 2022-07-05 08:00 CEST (scheduled)
+#   <br />
+#   vis1   : 2022-07-04 14:20 CEST (done)
+#   <br />
+#   vis2   : 2022-07-04 14:20 CEST (done)
+#   <br />
+#   worker : 2022-07-04 starting 14:30 CEST (in progress)
+#   <br />
+#   Worker nodes automatically reboot after the last job finishes, see
+#   /opt/bwhpc/os-revisions/security_update_2022-07
+#   for reboot timestamps.
+# ---
 
 # ---
 # status: warning
