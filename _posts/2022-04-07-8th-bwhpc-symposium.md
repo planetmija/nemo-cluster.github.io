@@ -8,6 +8,8 @@ motd: true
 summary: >
     The 8th bwHPC Symposium will take place on November 28,
     2022 and will be hosted at the High-Performance Computing Center of the University of Stuttgart (HLRS).
+    <br/>
+    UPDATE 11.07.2022: Registration is now open.
 highlight: true
 ---
 
@@ -26,10 +28,18 @@ If necessitated by the infection situation, a switch to an online event is possi
 
 Information on the registration and the agenda will follow in due time and will also be available online:
 
-[bwHPC Symposium](https://www.bwhpc.de/8-bwhpc-symposium.php){:target=_"blank"}
+[bwHPC Symposium](https://www.bwhpc.de/8-bwhpc-symposium.php){:target="_blank"}
 
 For further information on the event or in case of interest to present at the symposium, please contact:
 
 [symposium2022@bwhpc.de](mailto:symposium2022@bwhpc.de)
 
-We are looking forward to your participation.
+We would be pleased about your participation and about a scientific contribution to the symposium.
+
+---
+
+**UPDATE 11.07.2022**
+
+Registration is now open.
+
+Deadline for registration is November 13, 2022.
