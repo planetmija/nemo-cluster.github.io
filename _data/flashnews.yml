@@ -48,6 +48,19 @@
 #   If you have problems with the new version, please contact us.
 # ---
 
+---
+url: /
+status: danger
+author: HPC Team Freiburg
+date: 2022-08-03
+motd: true
+title: Cooling System Heat Problem
+text: >
+  Due to the hot temperatures in the next days, we have to gradually reduce the load on the cooling system.
+  Therefore, we will shut down the NEMO machines in the next few days after finishing a job.
+  After the maintenance on 08.08. we will see how many nodes we can start up again.
+---
+
 # ---
 # url: /news/2022/04/04/nemo-quota/
 # status: info
