@@ -111,7 +111,7 @@
 # ---
 
 ---
-status: warning
+status: danger
 author: HPC Team Freiburg
 date: 2022-08-02
 title: Scheduled High Performance Network Maintenance 08.08.2022
