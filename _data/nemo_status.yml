@@ -46,6 +46,19 @@
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-03</code>.
 # ---
 
+---
+status: success
+author: HPC Team Freiburg
+date: 2022-08-08
+title: 'NEMO: normal operation'
+text: >
+  Maintenance has been completed.
+  The Omni-Path uplinks have been repaired.
+  Currently, about 80% of the NEMO cluster is online.
+  <br />
+  In addition, the August security update was applied (CentOS 7.9, Rev. 22).
+---
+
 # ---
 # status: warning
 # author: HPC Team Freiburg
@@ -110,26 +123,26 @@
 #   We are working on the problem.
 # ---
 
----
-status: danger
-author: HPC Team Freiburg
-date: 2022-08-02
-title: Scheduled High Performance Network Maintenance 08.08.2022
-text: >
-  We need to reboot all Omni-Path switches and replace some cables.
-  Since the workspaces and MPI jobs depend on OPA, the entire cluster will be shut down for a few hours.
-  <br />
-  <br />
-  <strong>Date: 08.08.2022 8:00 - 18:00 CEST</strong>
-  <br />
-  <br />
-  The entire NEMO cluster will be shut down.
-  No computations are possible during maintenance, so submit all jobs on time.
-  Note that only jobs whose walltime fits within the time window until maintenance can be started.
-  Jobs that cannot be started will be processed afterwards.
-  However, if problems occur, the queue may need to be emptied.
-  During maintenance, the operating system of the cluster is updated.
----
+# ---
+# status: danger
+# author: HPC Team Freiburg
+# date: 2022-08-02
+# title: Scheduled High Performance Network Maintenance 08.08.2022
+# text: >
+#   We need to reboot all Omni-Path switches and replace some cables.
+#   Since the workspaces and MPI jobs depend on OPA, the entire cluster will be shut down for a few hours.
+#   <br />
+#   <br />
+#   <strong>Date: 08.08.2022 8:00 - 18:00 CEST</strong>
+#   <br />
+#   <br />
+#   The entire NEMO cluster will be shut down.
+#   No computations are possible during maintenance, so submit all jobs on time.
+#   Note that only jobs whose walltime fits within the time window until maintenance can be started.
+#   Jobs that cannot be started will be processed afterwards.
+#   However, if problems occur, the queue may need to be emptied.
+#   During maintenance, the operating system of the cluster is updated.
+# ---
 
 # ---
 # status: danger
