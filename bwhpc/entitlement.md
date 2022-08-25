@@ -97,15 +97,15 @@ Please fill out the following form.
                 <ul>
                     <li>
                         Verwaltungs- und Benutzungsordnung
-                            <a href="https://www.rz.uni-freiburg.de/inhalt/dokumente/pdfs/ordnungen/vbo.pdf/at_download/file" target='_blank'>(VBO)</a>
+                            <a href="https://www.rz.uni-freiburg.de/de/inhalt/dokumente/ordnungen/vbo.pdf/at_download/file" target='_blank'>(VBO)</a>
                     </li>
                     <li>
                         Benutzungsordnung für die vom Rechenzentrum der Albert-Ludwigs-Universität angebotenen Netzdienste
-                            <a href="https://www.rz.uni-freiburg.de/inhalt/dokumente/pdfs/ordnungen/nbo.pdf/at_download/file" target='_blank'>(NBO)</a>
+                            <a href="https://www.rz.uni-freiburg.de/de/inhalt/dokumente/ordnungen/nbo.pdf/at_download/file" target='_blank'>(NBO)</a>
                     </li>
                     <li>
                         Netzordnung für das Freiburger Universitäts Netz
-                            <a href="https://www.rz.uni-freiburg.de/inhalt/dokumente/pdfs/ordnungen/no.pdf/at_download/file" target='_blank'>(NO)</a>
+                            <a href="https://www.rz.uni-freiburg.de/de/inhalt/dokumente/ordnungen/no.pdf/at_download/file" target='_blank'>(NO)</a>
                     </li>
                 </ul>
                 <label class="checkbox">
