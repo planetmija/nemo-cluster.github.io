@@ -75,24 +75,24 @@
 ---
 status: warning
 author: HPC Team Freiburg
-date: 2022-09-01
+date: 2022-09-02
 title: Security Update September 2022
 text: >
   <strong>UPDATE:</strong> We are waiting for a security update of an important package.
-  The NEMO update will be postponed to 02.09 or 05.09.
-  Starting 02.09. or 05.09., the operating system of NEMO's worker, vis and login nodes will be updated.
+  The NEMO update will be postponed to 02.09.
+  Starting 02.09., the operating system of NEMO's worker, vis and login nodes will be updated.
   <br />
   The nodes will be rebooted at:
   <br />
-  login1 : 2022-09-02 or 05 18:00 CEST (scheduled)
+  login1 : 2022-09-02 18:00 CEST (scheduled)
   <br />
-  login2 : 2022-09-03 or 06 08:00 CEST (scheduled)
+  login2 : 2022-09-03 08:00 CEST (scheduled)
   <br />
-  vis1   : 2022-09-02 or 05 14:00 CEST (scheduled)
+  vis1   : 2022-09-02 11:45 CEST (done)
   <br />
-  vis2   : 2022-09-02 or 05 14:00 CEST (scheduled)
+  vis2   : 2022-09-02 11:45 CEST (done)
   <br />
-  worker : 2022-09-02 or 05 starting 14:00 CEST (scheduled)
+  worker : 2022-09-02 starting 12:00 CEST (in progress)
   <br />
   Worker nodes automatically reboot after the last job finishes, see
   /opt/bwhpc/os-revisions/security_update_2022-09
