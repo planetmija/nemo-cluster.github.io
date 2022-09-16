@@ -13,6 +13,7 @@ $.ajax({
             $.getScript("/assets/js/highcharts/nemo_type_usage.js");
             $.getScript("/assets/js/highcharts/nemo_rv_usage.js");
             $.getScript("/assets/js/highcharts/nemo_rv_lastyear.js");
+            $.getScript("/assets/js/highcharts/nemo_rv_kwh_lastyear.js");
             $.getScript("/assets/js/highcharts/nemo_rv_top10.js");
             $.getScript("/assets/js/highcharts/nemo_cores_queued.js");
             $.getScript("/assets/js/highcharts/nemo_cores_free.js");
