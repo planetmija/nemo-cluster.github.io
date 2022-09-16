@@ -153,6 +153,9 @@ the resource requirements of the job and the historical usage (fairshare).
     <li data-tab="nemo_rv_top10">
       <a>Top 10 Projects</a>
     </li>
+    <li data-tab="nemo_rv_kwh_lastyear">
+      <a>Projects kWh</a>
+    </li>
     <li data-tab="nemo_rv_usage">
       <a>Projects over the Years</a>
     </li>
@@ -163,6 +166,8 @@ the resource requirements of the job and the historical usage (fairshare).
   <p class="is-active" data-contentp="nemo_rv_lastyear" id="nemo_rv_lastyear" style="height: 800px"></p>
 
   <p data-contentp="nemo_rv_top10" id="nemo_rv_top10" style="height: 800px"></p>
+
+  <p data-contentp="nemo_rv_kwh_lastyear" id="nemo_rv_kwh_lastyear" style="height: 800px"></p>
 
   <p data-contentp="nemo_rv_usage" id="nemo_rv_usage" style="height: 1000px"></p>
   <p data-contentp="nemo_rv_usage">
