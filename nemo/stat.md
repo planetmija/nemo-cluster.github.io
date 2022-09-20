@@ -139,7 +139,15 @@ the resource requirements of the job and the historical usage (fairshare).
     <button id="button_field" style="position:relative;top:-20px">Hide all fields</button>
   </p>
 
+  <p data-contentu="nemo_type_usage">
+    These numbers are only an estimate.
+    The VRE number is calculated by adding all calculations from groups that use VRE.
+    If some calculations are done on a bare-metal basis, we still add them to the VRE usage.
+    However, we assume that almost all jobs computed by these groups are executed using VREs.
+  </p>
   <p data-contentu="nemo_type_usage" id="nemo_type_usage" style="height: 800px"></p>
+
+  <p data-contentq="nemo_queue_jobs" id="nemo_queue_jobs"></p>
 </div>
 
 
@@ -167,6 +175,17 @@ the resource requirements of the job and the historical usage (fairshare).
 
   <p data-contentp="nemo_rv_top10" id="nemo_rv_top10" style="height: 800px"></p>
 
+  <p data-contentp="nemo_rv_kwh_lastyear">
+    These numbers are only an estimate.
+    We assume that four of our standard Intel nodes (Broadwell) consume between 700 and 1000 Watts including the chassis.
+    The average consumption is around 800/850 W.
+    This depends on the workload of the cores and the application.
+    So, if there are four machines per chassis, one machine consumes about 200 W.
+    The scheduler can allocate 20 real cores per machine.
+    This means that one core consumes about 10 W.
+    These numbers do not take into account storage, switch, rack and other infrastructure required.
+    Example: If you use a whole node with 20 cores for 10 hours, you will consume 20*10W*10h = 2000Wh = 2kWh.
+  </p>
   <p data-contentp="nemo_rv_kwh_lastyear" id="nemo_rv_kwh_lastyear" style="height: 800px"></p>
 
   <p data-contentp="nemo_rv_usage" id="nemo_rv_usage" style="height: 1000px"></p>
