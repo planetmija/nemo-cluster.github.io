@@ -52,12 +52,13 @@
 url: /
 status: info
 author: HPC Team
-date: 2022-08-29
+date: 2022-09-28
 motd: true
-title: Since August 3, only ~90% of the NEMO cluster is available (~836 nodes).
+title: Since September 15, only ~70% of the NEMO cluster is available (about 625 nodes).
 text: >
-  To save power, a small part of the cluster has been shut down.
-  Currently ~836 nodes are available (~90% of all available nodes).
+  We have received instructions from the University of Freiburg to save 30% of the power consumption.
+  To achieve this, we have shut down about 30% of the NEMO nodes.
+  Currently, about 625 nodes are available (~70% of all available nodes).
 ---
 
 # ---
