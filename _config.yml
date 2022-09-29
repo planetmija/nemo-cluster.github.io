@@ -18,8 +18,13 @@ footer_menu: footer_menu
 hide_share_buttons: true
 # theme_color: '#008cba'
 # fixed_navbar: top
+# js versions
+jqver: 3.6.1
+alpinever: 3.10.3
 # highcharts version
-hcver: 9.3.3
+hcver: 10.2.1
+# fontawesome version
+fontver: 6.2.0
 
 plugins:
   - jekyll-sitemap

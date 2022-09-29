@@ -10,8 +10,8 @@
     <link rel="shortcut icon" type="image/png"
           {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
     />
-    <script src="{{ site.baseurl }}/assets/js/alpine-3.9.0.min.js" defer></script>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fontawesome-5.15.4.min.css">
+    <script src="{{ site.baseurl }}/assets/js/alpine-{{ site.alpinever }}.min.js" defer></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fontawesome-{{ site.fontver }}.min.css">
     {% unless site.hide_share_buttons %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     {% endunless %}
