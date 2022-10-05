@@ -59,6 +59,8 @@ text: >
   We have received instructions from the University of Freiburg to save 30% of the power consumption.
   To achieve this, we have shut down about 30% of the NEMO nodes.
   Currently, about 625 nodes are available (~70% of all available nodes).
+  <br />
+  Update 05.10.2022: You can check the usage of your group with <code>nemorvusage</code>.
 ---
 
 # ---
