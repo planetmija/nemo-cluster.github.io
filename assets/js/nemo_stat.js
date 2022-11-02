@@ -1,4 +1,5 @@
 $.ajax({
+    url: "https://cloud.nemo.uni-freiburg.de/anon/usage/chart/nemo_site_usage/",
     dataType: "jsonp",
     statusCode: {
         200: function (response) {
