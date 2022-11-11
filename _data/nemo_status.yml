@@ -78,22 +78,25 @@ author: HPC Team Freiburg
 date: 2022-11-04
 title: Security Update November 2022
 text: >
-  <strong>UPDATE 07.11.: Security update postponed.
+  <strong>UPDATE 11.11.: Packages updated by CentOS.
+  Update will start today.
+  <br />
+  UPDATE 07.11.: Security update postponed.
   Still waiting for important CentOS7 package update.</strong>
   <br />
-  Starting 09.11., the operating system of NEMO's worker, vis and login nodes will be updated.
+  Starting 11.11., the operating system of NEMO's worker, vis and login nodes will be updated.
   <br />
   The nodes will be rebooted at:
   <br />
-  login1 : 2022-11-09 18:00 CET (scheduled)
+  login1 : 2022-11-12 08:00 CET (scheduled)
   <br />
-  login2 : 2022-11-10 08:00 CET (scheduled)
+  login2 : 2022-11-13 08:00 CET (scheduled)
   <br />
-  vis1   : 2022-11-09 18:00 CET (scheduled)
+  vis1   : 2022-11-12 08:00 CET (scheduled)
   <br />
-  vis2   : 2022-11-10 08:00 CET (scheduled)
+  vis2   : 2022-11-13 08:00 CET (scheduled)
   <br />
-  worker : 2022-11-09 starting 16:00 CET (scheduled)
+  worker : 2022-11-11 starting 14:00 CET (scheduled)
   <br />
   Worker nodes automatically reboot after the last job finishes, see
   /opt/bwhpc/os-revisions/security_update_2022-11
