@@ -10,7 +10,7 @@ summary: >
     2022 and will be hosted at the High-Performance Computing Center of the University of Stuttgart (HLRS).
     <br/>
     UPDATE 11.07.2022: Registration is now open.
-highlight: true
+highlight: false
 ---
 
 The 8th bwHPC Symposium this year will take place on
