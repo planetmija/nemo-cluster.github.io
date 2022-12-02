@@ -4,7 +4,7 @@ author: bwHPC Symposium Team
 category: event
 tags: [bwHPC, Symposium]
 date: 2022-04-07
-motd: true
+motd: false
 summary: >
     The 8th bwHPC Symposium will take place on November 28,
     2022 and will be hosted at the High-Performance Computing Center of the University of Stuttgart (HLRS).
