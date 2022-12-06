@@ -1483,7 +1483,18 @@ $(document).ready(() => {
     // launch the initial Settings dialog requesting bucket & credentials.
     moment().format();
 
-    const { bucket } = Object.fromEntries(
+    const injector = angular.element(document).injector();
+    const updateHash = () => {
+        const settings = injector.get("SharedService").getSettings();
+        location.hash = String(new URLSearchParams({
+            bucket: settings.bucket,
+            prefix: settings.prefix ?? sharedService.viewPrefix
+        })).replaceAll("%2F", "/");
+    }
+    injector.get("$rootScope").$on("broadcastChangeSettings", updateHash);
+    injector.get("$rootScope").$on("broadcastChangePrefix", updateHash);
+
+    const { bucket, prefix = "" } = Object.fromEntries(
         new URLSearchParams(`${location.search}&${location.hash.slice(1)}`)
     );
     if (!bucket) {
@@ -1498,7 +1509,7 @@ $(document).ready(() => {
         selected_bucket: "",
         view: "folder",
         delimiter: "/",
-        prefix: "",
+        prefix: prefix,
         mfa: {
             use: "no",
             code: "",
