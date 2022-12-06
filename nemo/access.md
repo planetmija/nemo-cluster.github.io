@@ -64,7 +64,7 @@ http://bwidm.de/entitlement/bwForCluster
 4. Register for the service
   [**bwForCluster NEMO**](https://bwservices.uni-freiburg.de "bwForCluster NEMO"){:target="_blank"}
   and
-  [set](https://bwservices.uni-freiburg.de "Set password"){:target="_blank"}{:target="_blank"}
+  [set](https://bwservices.uni-freiburg.de "Set password"){:target="_blank"}
   a new service password.
 
 For a **detailed** registration process consult the
