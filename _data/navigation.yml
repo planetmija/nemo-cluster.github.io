@@ -3,6 +3,8 @@
   dropdown:
     - name: Status and Statistics
       link: /nemo/stat/
+    - name: Container Repository
+      link: /nemo/container/
     - name: Access
       link: /nemo/access/
     - name: Login
