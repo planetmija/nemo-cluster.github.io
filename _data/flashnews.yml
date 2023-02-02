@@ -48,20 +48,20 @@
 #   If you have problems with the new version, please contact us.
 # ---
 
----
-url: /
-status: info
-author: HPC Team
-date: 2022-09-28
-motd: true
-title: Since September 15, only ~70% of the NEMO cluster is available (625 nodes).
-text: >
-  We have received instructions from the University of Freiburg to save 30% of the power consumption.
-  To achieve this, we have shut down about 30% of the NEMO nodes.
-  Currently, about 625 nodes are available (~70% of all available nodes).
-  <br />
-  Update 05.10.2022: You can check the usage of your group with <code>nemorvusage</code>.
----
+# ---
+# url: /
+# status: info
+# author: HPC Team
+# date: 2022-09-28
+# motd: true
+# title: Since September 15, only ~70% of the NEMO cluster is available (625 nodes).
+# text: >
+#   We have received instructions from the University of Freiburg to save 30% of the power consumption.
+#   To achieve this, we have shut down about 30% of the NEMO nodes.
+#   Currently, about 625 nodes are available (~70% of all available nodes).
+#   <br />
+#   Update 05.10.2022: You can check the usage of your group with <code>nemorvusage</code>.
+# ---
 
 # ---
 # url: /
@@ -92,6 +92,20 @@ text: >
 #   <br />
 #   Update 04.04.2022 17:15 CEST: To make the NEMO tools easier to find, we renamed all previous scripts that started with <code>showmy...</code> to <code>nemo...</code>.
 # ---
+
+---
+url: /
+status: grey
+author: HPC Team Freiburg
+date: 2023-02-02
+motd: true
+title: In Memoriam Rainer
+text: >
+  It is with great sadness that we have to inform you that our colleague Rainer Rutka from the University of Konstanz passed away last Friday at the age of 61.
+  Rainer was an active member and passionate supporter of the bwHPC projects and the bwForCluster NEMO.
+  We will remember him for his helpfulness and his constant efforts to pave the way to HPC for all scientists.
+  Our thoughts are with Rainer's family and friends.
+---
 
 ### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
 ### motd: true -> will be shown in MOTD
