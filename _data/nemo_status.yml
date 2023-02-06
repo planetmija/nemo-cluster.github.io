@@ -75,22 +75,22 @@
 ---
 status: warning
 author: HPC Team Freiburg
-date: 2023-02-02
+date: 2023-02-06
 title: Security Update February 2023
 text: >
   Starting 06.02., the operating system of NEMO's worker, vis and login nodes will be updated.
   <br />
   The nodes will be rebooted at:
   <br />
-  login1 : 2023-02-06 18:00 CET (scheduled)
+  login1 : 2023-02-06 18:00 CET (done)
   <br />
   login2 : 2023-02-07 08:00 CET (scheduled)
   <br />
-  vis1   : 2023-02-06 18:00 CET (scheduled)
+  vis1   : 2023-02-06 14:30 CET (done)
   <br />
-  vis2   : 2023-02-07 08:00 CET (scheduled)
+  vis2   : 2023-02-06 14:30 CET (done)
   <br />
-  worker : 2023-02-06 starting 14:00 CET (scheduled)
+  worker : 2023-02-06 starting 14:30 CET (in progress)
   <br />
   Worker nodes automatically reboot after the last job finishes, see
   /opt/bwhpc/os-revisions/security_update_2023-02
