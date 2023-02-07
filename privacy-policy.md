@@ -36,4 +36,4 @@ E-Mail:  [datenschutzbeauftragter@uni-freiburg.de](mailto:datenschutzbeauftragte
 ## Third Party Inclusion
 
 This website is hosted by [Github](https://www.github.com/) using [Github Pages](https://help.github.com/articles/what-is-github-pages/).
-The Github Global Privacy Practices are available [here](https://help.github.com/articles/global-privacy-practices/).
+The Github Privacy Statement is available [here](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement).
