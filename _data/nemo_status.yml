@@ -1,16 +1,16 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2023-02-07
-title: 'NEMO: normal operation'
-text: >
-  Security update February applied (CentOS 7.9, Rev. 29).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-02</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2023-02-07
+# title: 'NEMO: normal operation'
+# text: >
+#   Security update February applied (CentOS 7.9, Rev. 29).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-02</code>.
+# ---
 
 # ---
 # status: success
@@ -72,30 +72,30 @@ text: >
 #   login2 must be restarted after the security update.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2023-02-06
-# title: Security Update February 2023
-# text: >
-#   Starting 06.02., the operating system of NEMO's worker, vis and login nodes will be updated.
-#   <br />
-#   The nodes will be rebooted at:
-#   <br />
-#   login1 : 2023-02-06 18:00 CET (done)
-#   <br />
-#   login2 : 2023-02-07 08:00 CET (scheduled)
-#   <br />
-#   vis1   : 2023-02-06 14:30 CET (done)
-#   <br />
-#   vis2   : 2023-02-06 14:30 CET (done)
-#   <br />
-#   worker : 2023-02-06 starting 14:30 CET (in progress)
-#   <br />
-#   Worker nodes automatically reboot after the last job finishes, see
-#   /opt/bwhpc/os-revisions/security_update_2023-02
-#   for reboot timestamps (created when update starts).
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2023-03-09
+title: Security Update March 2023
+text: >
+  Starting 09.03., the operating system of NEMO's worker, vis and login nodes will be updated.
+  <br />
+  The nodes will be rebooted at:
+  <br />
+  login1 : 2023-03-10 18:00 CET (scheduled)
+  <br />
+  login2 : 2023-03-10 08:00 CET (scheduled)
+  <br />
+  vis1   : 2023-03-10 18:00 CET (scheduled)
+  <br />
+  vis2   : 2023-03-10 08:00 CET (scheduled)
+  <br />
+  worker : 2023-03-09 starting 14:00 CET (scheduled)
+  <br />
+  Worker nodes automatically reboot after the last job finishes, see
+  /opt/bwhpc/os-revisions/security_update_2023-03
+  for reboot timestamps (created when update starts).
+---
 
 # ---
 # status: warning
