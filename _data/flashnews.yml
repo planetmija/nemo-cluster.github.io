@@ -35,18 +35,18 @@
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03" target="_blank">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03</a>
 # ---
 
-# ---
-# url: /
-# status: info
-# author: HPC Team
-# date: 2021-12-20
-# motd: true
-# title: Singularity is only supported in version 3.8.
-# text: >
-#   Since GO had a security-critical vulnerability, we had to recompile Singularity.
-#   All older versions are thus disabled as of today.
-#   If you have problems with the new version, please contact us.
-# ---
+---
+url: /
+status: warning
+author: HPC Team
+date: 2023-04-28
+motd: true
+title: Singularity is only supported in version 3.11.
+text: >
+  Since Singularity had a security-critical vulnerability, we had to install Singularity v.3.11.
+  All older versions are thus disabled as of today.
+  If you have problems with the new version, please contact us.
+---
 
 # ---
 # url: /
@@ -93,19 +93,19 @@
 #   Update 04.04.2022 17:15 CEST: To make the NEMO tools easier to find, we renamed all previous scripts that started with <code>showmy...</code> to <code>nemo...</code>.
 # ---
 
----
-url: /
-status: grey
-author: HPC Team Freiburg
-date: 2023-02-02
-motd: true
-title: In Memoriam Rainer
-text: >
-  It is with great sadness that we have to inform you that our colleague Rainer Rutka from the University of Konstanz passed away last Friday at the age of 61.
-  Rainer was an active member and passionate supporter of the bwHPC projects and the bwForCluster NEMO.
-  We will remember him for his helpfulness and his constant efforts to pave the way to HPC for all scientists.
-  Our thoughts are with Rainer's family and friends.
----
+# ---
+# url: /
+# status: grey
+# author: HPC Team Freiburg
+# date: 2023-02-02
+# motd: true
+# title: In Memoriam Rainer
+# text: >
+#   It is with great sadness that we have to inform you that our colleague Rainer Rutka from the University of Konstanz passed away last Friday at the age of 61.
+#   Rainer was an active member and passionate supporter of the bwHPC projects and the bwForCluster NEMO.
+#   We will remember him for his helpfulness and his constant efforts to pave the way to HPC for all scientists.
+#   Our thoughts are with Rainer's family and friends.
+# ---
 
 ### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
 ### motd: true -> will be shown in MOTD
