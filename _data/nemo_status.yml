@@ -1,41 +1,41 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2023-03-10
-title: 'NEMO: normal operation'
-text: >
-  Security update March applied (CentOS 7.9, Rev. 30).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-03</code>.
----
-
 # ---
-# status: warning
+# status: success
 # author: HPC Team Freiburg
-# date: 2023-03-09
-# title: Security Update March 2023
+# date: 2023-03-10
+# title: 'NEMO: normal operation'
 # text: >
-#   Starting 09.03., the operating system of NEMO's worker, vis and login nodes will be updated.
+#   Security update March applied (CentOS 7.9, Rev. 30).
 #   <br />
-#   The nodes will be rebooted at:
-#   <br />
-#   login1 : 2023-03-10 18:00 CET (scheduled)
-#   <br />
-#   login2 : 2023-03-10 08:00 CET (scheduled)
-#   <br />
-#   vis1   : 2023-03-10 18:00 CET (scheduled)
-#   <br />
-#   vis2   : 2023-03-10 08:00 CET (scheduled)
-#   <br />
-#   worker : 2023-03-09 starting 14:00 CET (scheduled)
-#   <br />
-#   Worker nodes automatically reboot after the last job finishes, see
-#   /opt/bwhpc/os-revisions/security_update_2023-03
-#   for reboot timestamps (created when update starts).
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-03</code>.
 # ---
+
+---
+status: warning
+author: HPC Team Freiburg
+date: 2023-05-08
+title: Security Update May 2023
+text: >
+  Starting 08.05., the operating system of NEMO's worker, vis and login nodes will be updated.
+  <br />
+  The nodes will be rebooted at:
+  <br />
+  login1 : 2023-05-09 18:00 CEST (scheduled)
+  <br />
+  login2 : 2023-05-10 08:00 CEST (scheduled)
+  <br />
+  vis1   : 2023-05-08 16:30 CEST (done)
+  <br />
+  vis2   : 2023-05-08 16:30 CEST (done)
+  <br />
+  worker : 2023-05-08 starting 16:30 CEST (in progress)
+  <br />
+  Worker nodes automatically reboot after the last job finishes, see
+  /opt/bwhpc/os-revisions/security_update_2023-05
+  for reboot timestamps (created when update starts).
+---
 
 # ---
 # status: success
