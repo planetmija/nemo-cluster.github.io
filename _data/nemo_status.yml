@@ -1,16 +1,16 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2023-05-10
-title: 'NEMO: normal operation'
-text: >
-  Security update May applied (CentOS 7.9, Rev. 32).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-05</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2023-05-10
+# title: 'NEMO: normal operation'
+# text: >
+#   Security update May applied (CentOS 7.9, Rev. 32).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-05</code>.
+# ---
 
 # ---
 # status: warning
@@ -165,6 +165,18 @@ text: >
 #   However, in the event of problems, the queue may have to be emptied.
 #   During maintenance the operating system of the cluster is updated.
 # ---
+
+---
+status: warning
+author: HPC Team Freiburg
+date: 2023-05-11
+title: NEMO Network Problems
+text: >
+  A damaged network switch caused 88 nodes to crash today.
+  The compute nodes were rebooted and the running jobs on these nodes were terminated.
+  <br />
+  The problem has been fixed.
+---
 
 # ---
 # status: warning
