@@ -172,10 +172,16 @@ author: HPC Team Freiburg
 date: 2023-05-11
 title: NEMO Network Problems
 text: >
-  A damaged network switch caused 88 nodes to crash today.
-  The compute nodes were rebooted and the running jobs on these nodes were terminated.
+  A damaged network switch caused 88 nodes to fail today.
+  The computing nodes were rebooted and the running jobs on these nodes were terminated.
+  The problem has been fixed in the meantime.
   <br />
+  UPDATE: 06/02/2023:
+  Another damaged switch caused 44 nodes to crash today.
   The problem has been fixed.
+  <br />
+  After so many years this is to be expected,
+  so in the next few weeks we will try to check the remaining switches in the cluster and replace them in advance.
 ---
 
 # ---
