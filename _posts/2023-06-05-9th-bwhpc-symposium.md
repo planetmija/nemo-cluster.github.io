@@ -8,6 +8,8 @@ motd: true
 summary: >
     The 9th bwHPC Symposium will take place on October 23,
     2023 and will be hosted by the University of Mannheim.
+    <br/>
+    UPDATE 13.07.2023: Registration is now open.
 highlight: true
 ---
 
@@ -32,3 +34,11 @@ For further information on the event or in case of interest to present at the sy
 [symposium2023@bwhpc.de](mailto:symposium2023@bwhpc.de)
 
 We would appreciate your participation and scientific contribution to the symposium.
+
+---
+
+**UPDATE 13.06.2023**
+
+Registration is now open.
+
+Deadline for registration is October 13, 2023.
