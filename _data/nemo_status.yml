@@ -12,38 +12,38 @@
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-05</code>.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2023-06-13
-title: 'NEMO: normal operation'
-text: 'NEMO: normal operation'
----
-
 # ---
-# status: warning
+# status: success
 # author: HPC Team Freiburg
-# date: 2023-05-08
-# title: Security Update May 2023
-# text: >
-#   Starting 08.05., the operating system of NEMO's worker, vis and login nodes will be updated.
-#   <br />
-#   The nodes will be rebooted at:
-#   <br />
-#   login1 : 2023-05-09 18:00 CEST (scheduled)
-#   <br />
-#   login2 : 2023-05-10 08:00 CEST (scheduled)
-#   <br />
-#   vis1   : 2023-05-08 16:30 CEST (done)
-#   <br />
-#   vis2   : 2023-05-08 16:30 CEST (done)
-#   <br />
-#   worker : 2023-05-08 starting 16:30 CEST (in progress)
-#   <br />
-#   Worker nodes automatically reboot after the last job finishes, see
-#   /opt/bwhpc/os-revisions/security_update_2023-05
-#   for reboot timestamps (created when update starts).
+# date: 2023-06-13
+# title: 'NEMO: normal operation'
+# text: 'NEMO: normal operation'
 # ---
+
+---
+status: warning
+author: HPC Team Freiburg
+date: 2023-08-04
+title: Security Update August 2023
+text: >
+  Starting 03.08., the operating system of NEMO's worker, vis and login nodes will be updated.
+  <br />
+  The nodes will be rebooted at:
+  <br />
+  login1 : 2023-08-07 18:00 CEST (scheduled)
+  <br />
+  login2 : 2023-08-08 08:00 CEST (scheduled)
+  <br />
+  vis1   : 2023-08-07 18:00 CEST (scheduled)
+  <br />
+  vis2   : 2023-08-08 08:00 CEST (scheduled)
+  <br />
+  worker : 2023-08-03 starting 16:30 CEST (in progress)
+  <br />
+  Worker nodes automatically reboot after the last job finishes, see
+  /opt/bwhpc/os-revisions/security_update_2023-08
+  for reboot timestamps (created when update starts).
+---
 
 # ---
 # status: success
