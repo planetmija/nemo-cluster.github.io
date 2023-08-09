@@ -7,8 +7,10 @@ date: 2023-08-08
 motd: true
 summary: >
     We are currently testing two-factor authentication for NEMO logins.
-    Currently, this security feature can be tested on our vis1/2 visualization nodes for password logins.
+    Currently, this security feature can be tested on our vis1/2 visualization nodes.
 ---
+
+**UPDATE: 09.08.2023:** OTP is now enabled for password and SSH key logins.
 
 We are currently testing two-factor authentication for NEMO logins.
 Currently, this security feature can be tested on our vis1/2 visualization nodes for password logins.
