@@ -1,20 +1,20 @@
----
-url: event/2023/06/05/9th-bwhpc-symposium/
-author: HPC Team
-date: 2023-06-13
-motd: true
-title: Registration open to the 9th bwHPC-Symposium - 23.10.2023
-text: >
-  Registration to the 9th bwHPC Symposium is open - 23.10.2023:
-  <br />
-  <a href="https://www.bwhpc.de/9-bwhpc-symposium.php">https://www.bwhpc.de/9-bwhpc-symposium.php</a>
-  <br />
-  We are looking forward to your participation.
-  Scientific contributions are highly appreciated.
-  <br />
-  <br />  
-  <strong>Registration deadline: 13.10.2023</strong>
----
+# ---
+# url: event/2023/06/05/9th-bwhpc-symposium/
+# author: HPC Team
+# date: 2023-06-13
+# motd: true
+# title: Registration open to the 9th bwHPC-Symposium - 23.10.2023
+# text: >
+#   Registration to the 9th bwHPC Symposium is open - 23.10.2023:
+#   <br />
+#   <a href="https://www.bwhpc.de/9-bwhpc-symposium.php">https://www.bwhpc.de/9-bwhpc-symposium.php</a>
+#   <br />
+#   We are looking forward to your participation.
+#   Scientific contributions are highly appreciated.
+#   <br />
+#   <br />  
+#   <strong>Registration deadline: 13.10.2023</strong>
+# ---
 
 # ---
 # url: /
@@ -34,6 +34,17 @@ text: >
 #   <br />
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03" target="_blank">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03</a>
 # ---
+
+---
+url: /news/2023/10/11/Enforcing-2FA-on-NEMO/
+status: warning
+author: HPC Team
+date: 2023-10-11
+motd: true
+title: Enforcing Two-factor Authentication on NEMO
+text: >
+  We will enforce 2FA logins on login2 on 06.11.2023 and on login1 2 weeks later on 20.11.2023.
+---
 
 # ---
 # url: /
