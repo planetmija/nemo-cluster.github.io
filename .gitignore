@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 _site
+_tmp
 Gemfile.lock
 .idea
 .DS_Store
