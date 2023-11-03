@@ -37,13 +37,13 @@
 
 ---
 url: /news/2023/10/11/Enforcing-2FA-on-NEMO/
-status: warning
+status: danger
 author: HPC Team
-date: 2023-10-11
+date: 2023-11-03
 motd: true
 title: Enforcing Two-factor Authentication on NEMO
 text: >
-  We will enforce 2FA logins on login2 on 06.11.2023 and on login1 2 weeks later on 20.11.2023.
+  UPDATE: We will enforce 2FA logins on login2 on 13.11.2023 and on login1 2 weeks later on 27.11.2023.
 ---
 
 # ---
