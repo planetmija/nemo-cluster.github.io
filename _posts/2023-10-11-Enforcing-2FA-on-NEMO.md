@@ -10,6 +10,8 @@ summary: >
     Currently, this security feature can be tested on our vis1/2 visualization nodes.
 ---
 
+**UPDATE 03.11.2023**: We will enforce 2FA logins on login2 on 13.11.2023 and on login1 2 weeks later on 27.11.2023.
+
 As previously [announced](/news/2023/08/08/Testing-2FA-on-NEMO/), we are testing 2FA for logins on NEMO.
 This feature will be enforced on all login nodes on NEMO in November.
 We will enforce 2FA logins on login2 on 06.11.2023 and on login1 2 weeks later on 20.11.2023.
