@@ -1,16 +1,16 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2023-08-08
-title: 'NEMO: normal operation'
-text: >
-  Security update August applied (CentOS 7.9, Rev. 36).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-08</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2023-08-08
+# title: 'NEMO: normal operation'
+# text: >
+#   Security update August applied (CentOS 7.9, Rev. 36).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-08</code>.
+# ---
 
 # ---
 # status: success
@@ -20,30 +20,30 @@ text: >
 # text: 'NEMO: normal operation'
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2023-08-04
-# title: Security Update August 2023
-# text: >
-#   Starting 03.08., the operating system of NEMO's worker, vis and login nodes will be updated.
-#   <br />
-#   The nodes will be rebooted at:
-#   <br />
-#   login1 : 2023-08-07 18:00 CEST (scheduled)
-#   <br />
-#   login2 : 2023-08-08 08:00 CEST (scheduled)
-#   <br />
-#   vis1   : 2023-08-07 18:00 CEST (scheduled)
-#   <br />
-#   vis2   : 2023-08-08 08:00 CEST (scheduled)
-#   <br />
-#   worker : 2023-08-03 starting 16:30 CEST (in progress)
-#   <br />
-#   Worker nodes automatically reboot after the last job finishes, see
-#   /opt/bwhpc/os-revisions/security_update_2023-08
-#   for reboot timestamps (created when update starts).
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2023-11-08
+title: Security Update November 2023
+text: >
+  Starting 09.11., the operating system of NEMO's worker, vis and login nodes will be updated.
+  <br />
+  The nodes will be rebooted at:
+  <br />
+  login1 : 2023-11-08 18:00 CET (scheduled)
+  <br />
+  login2 : 2023-11-09 08:00 CET (scheduled)
+  <br />
+  vis1   : 2023-11-08 18:00 CET (scheduled)
+  <br />
+  vis2   : 2023-11-08 18:00 CET (scheduled)
+  <br />
+  worker : 2023-11-08 starting 14:00 CET (in scheduled)
+  <br />
+  Worker nodes automatically reboot after the last job finishes, see
+  /opt/bwhpc/os-revisions/security_update_2023-11
+  for reboot timestamps (created when update starts).
+---
 
 # ---
 # status: success
