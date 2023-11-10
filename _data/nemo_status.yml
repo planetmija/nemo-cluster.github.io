@@ -20,30 +20,30 @@
 # text: 'NEMO: normal operation'
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2023-11-08
-title: Security Update November 2023
-text: >
-  Starting 09.11., the operating system of NEMO's worker, vis and login nodes will be updated.
-  <br />
-  The nodes will be rebooted at:
-  <br />
-  login1 : 2023-11-08 18:00 CET (scheduled)
-  <br />
-  login2 : 2023-11-09 08:00 CET (scheduled)
-  <br />
-  vis1   : 2023-11-08 11:00 CET (done)
-  <br />
-  vis2   : 2023-11-08 11:00 CET (done)
-  <br />
-  worker : 2023-11-08 starting 11:00 CET (in progress)
-  <br />
-  Worker nodes automatically reboot after the last job finishes, see
-  /opt/bwhpc/os-revisions/security_update_2023-11
-  for reboot timestamps (created when update starts).
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2023-11-08
+# title: Security Update November 2023
+# text: >
+#   Starting 09.11., the operating system of NEMO's worker, vis, workflow and login nodes will be updated.
+#   <br />
+#   The nodes will be rebooted at:
+#   <br />
+#   login1   : 2023-11-08 18:00 CET (scheduled)
+#   <br />
+#   login2   : 2023-11-09 08:00 CET (scheduled)
+#   <br />
+#   vis      : 2023-11-08 11:00 CET (done)
+#   <br />
+#   workflow : 2023-11-08 11:00 CET (done)
+#   <br />
+#   worker   : 2023-11-08 starting 11:00 CET (in progress)
+#   <br />
+#   Worker nodes automatically reboot after the last job finishes, see
+#   /opt/bwhpc/os-revisions/security_update_2023-11
+#   for reboot timestamps (created when update starts).
+# ---
 
 # ---
 # status: success
@@ -78,6 +78,19 @@ text: >
 #   <br />
 #   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2022-03</code>.
 # ---
+
+---
+status: success
+author: HPC Team Freiburg
+date: 2022-11-10
+title: 'NEMO: normal operation'
+text: >
+  Security update August applied (CentOS 7.9, Rev. 37).
+  <br />
+  We will enforce 2FA logins on login2 on 13.11.2023 and on login1 two weeks later on 27.11.2023.
+  2FA is already activated on vis.nemo.uni-freiburg.de for testing.
+  For workflows and SSH command keys, please contact NEMO support.
+---
 
 # ---
 # status: success
