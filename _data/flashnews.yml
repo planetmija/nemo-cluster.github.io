@@ -35,16 +35,16 @@
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03" target="_blank">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03</a>
 # ---
 
----
-url: /news/2023/10/11/Enforcing-2FA-on-NEMO/
-status: danger
-author: HPC Team
-date: 2023-11-03
-motd: true
-title: Enforcing Two-factor Authentication on NEMO
-text: >
-  UPDATE: We will enforce 2FA logins on login2 on 13.11.2023 and on login1 two weeks later on 27.11.2023.
----
+# ---
+# url: /news/2023/10/11/Enforcing-2FA-on-NEMO/
+# status: danger
+# author: HPC Team
+# date: 2023-11-03
+# motd: true
+# title: Enforcing Two-factor Authentication on NEMO
+# text: >
+#   UPDATE: We will enforce 2FA logins on login2 on 13.11.2023 and on login1 two weeks later on 27.11.2023.
+# ---
 
 # ---
 # url: /

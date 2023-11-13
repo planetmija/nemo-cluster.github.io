@@ -87,10 +87,13 @@ title: 'NEMO: normal operation'
 text: >
   Security update August applied (CentOS 7.9, Rev. 37).
   <br />
-  We will enforce 2FA logins on login2 on 13.11.2023 and on login1 two weeks later on 27.11.2023.
-  2FA is already activated on vis.nemo.uni-freiburg.de for testing.
-  For workflows and SSH command keys, please contact NEMO support.
+  We will introduce the 2FA login in 2023.
+  We will inform you in the next few days when this will happen.
 ---
+
+  # We will enforce 2FA logins on login2 on 13.11.2023 and on login1 two weeks later on 27.11.2023.
+  # 2FA is already activated on vis.nemo.uni-freiburg.de for testing.
+  # For workflows and SSH command keys, please contact NEMO support.
 
 # ---
 # status: success
