@@ -80,15 +80,14 @@
 # ---
 
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
 date: 2022-11-21
 title: 'NEMO: normal operation'
 text: >
   Security update August applied (CentOS 7.9, Rev. 37).
   <br />
-  The registration page for projects is currently not available (https://zas.bwhpc.de/).
-  However, this should not affect the use of the cluster.
+  We will introduce the 2FA login in 2023 (see news).
 ---
 
 # ---
