@@ -39,12 +39,11 @@
 url: /news/2023/10/11/Enforcing-2FA-on-NEMO/
 status: danger
 author: HPC Team
-date: 2023-11-21
+date: 2023-12-11
 motd: true
 title: Enforcing Two-factor Authentication on NEMO
 text: >
-  We will enforce 2FA logins on login2 on 29.11.2023 and on login1 on 11.12.2023.
-  2FA is already activated on vis.nemo.uni-freiburg.de for testing (https://wiki.bwhpc.de/e/Registration/2FA).
+  2FA logins are now enforced on NEMO (https://wiki.bwhpc.de/e/Registration/2FA).
   For workflows and SSH command keys, please contact NEMO support (https://wiki.bwhpc.de/e/NEMO/Login).
 ---
 
