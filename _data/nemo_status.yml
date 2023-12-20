@@ -1,41 +1,41 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2023-12-19
-# title: 'NEMO: normal operation'
-# text: >
-#   Security update Christmas applied (CentOS 7.9, Rev. 38).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-12</code>.
-# ---
-
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
-date: 2023-12-18
-title: Security Update Christmas 2023
+date: 2023-12-20
+title: 'NEMO: normal operation'
 text: >
-  Starting 18.12., the operating system of NEMO's worker, vis, workflow and login nodes will be updated.
+  Security update Christmas applied (CentOS 7.9, Rev. 39).
   <br />
-  The nodes will be rebooted at:
-  <br />
-  login1   : 2023-12-19 18:00 CET (scheduled)
-  <br />
-  login2   : 2023-12-20 08:00 CET (scheduled)
-  <br />
-  vis      : 2023-12-18 15:00 CET (done)
-  <br />
-  workflow : 2023-12-19 18:00 CET (scheduled)
-  <br />
-  worker   : 2023-12-18 starting 15:00 CET (in progress)
-  <br />
-  Worker nodes automatically reboot after the last job finishes, see
-  /opt/bwhpc/os-revisions/security_update_2023-12
-  for reboot timestamps (created when update starts).
+  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2023-12</code>.
 ---
+
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2023-12-18
+# title: Security Update Christmas 2023
+# text: >
+#   Starting 18.12., the operating system of NEMO's worker, vis, workflow and login nodes will be updated.
+#   <br />
+#   The nodes will be rebooted at:
+#   <br />
+#   login1   : 2023-12-19 18:00 CET (scheduled)
+#   <br />
+#   login2   : 2023-12-20 08:00 CET (scheduled)
+#   <br />
+#   vis      : 2023-12-18 15:00 CET (done)
+#   <br />
+#   workflow : 2023-12-19 18:00 CET (scheduled)
+#   <br />
+#   worker   : 2023-12-18 starting 15:00 CET (in progress)
+#   <br />
+#   Worker nodes automatically reboot after the last job finishes, see
+#   /opt/bwhpc/os-revisions/security_update_2023-12
+#   for reboot timestamps (created when update starts).
+# ---
 
 # ---
 # status: success
