@@ -9,10 +9,12 @@
     - name: Access
       link: /nemo/access/
     - name: Login
-      link: /nemo/login/
+      extlink: https://wiki.bwhpc.de/e/NEMO/Login
+    - name: Getting Started
+      extlink: https://wiki.bwhpc.de/e/NEMO/Start
     - name: Support
-      link: /nemo/support/
+      extlink: https://wiki.bwhpc.de/e/NEMO/Support
     - name: Acknowledgement
-      link: /nemo/acknowledgement/
+      extlink: https://wiki.bwhpc.de/e/NEMO/Acknowledgement
     - name: NEMO Wiki
-      extlink: https://wiki.bwhpc.de/e/Category:BwForCluster_NEMO
+      extlink: https://wiki.bwhpc.de/e/NEMO
