@@ -26,7 +26,7 @@ Please search the relevant information on the web pages first:
 
 ## When contacting the general bwHPC/HPC support
 
-Besides the [general](/support/) information please try to describe your problem/question as detailled as possible.
+Besides the [general](/support/) information please try to describe your problem/question as detailed as possible.
 
 Please write a ticket to the general HPC queue:
 [hpc-support@hpc.uni-freiburg.de](mailto:hpc-support@hpc.uni-freiburg.de)

@@ -31,6 +31,7 @@ The registration process consists of 4 steps. Steps 1/2+3 can be done in paralle
 1. **PLEASE** verify your entitlements first by visiting this
   [page](https://bwservices.uni-freiburg.de/user/index.xhtml "User info"){:target="_blank"},
   Entitlements should contain
+
 ```{=html}
 http://bwidm.de/entitlement/bwForCluster
 ```
@@ -40,7 +41,7 @@ http://bwidm.de/entitlement/bwForCluster
     1. Procedure for users from
       [Freiburg](/bwhpc/entitlement/ "Entitlement form").
     2. Instructions for users from
-      [other universities](https://wiki.bwhpc.de/e/BwForCluster_Entitlement){:target="_blank"}.
+      [other universities](https://wiki.bwhpc.de/e/Registration/bwForCluster/Entitlement){:target="_blank"}.
     3. After you receive the e-mail that your entitlement was granted,
       please **verify** your entitlements again by visiting the
       [page](https://bwservices.uni-freiburg.de/user/index.xhtml){:target="_blank"}
@@ -54,11 +55,11 @@ http://bwidm.de/entitlement/bwForCluster
 {:start="3"}
 3. Associate yourself with a **Rechenvorhaben** ("project or planned compute activities")
     1. Procedure for
-      [workgroup leaders](https://wiki.bwhpc.de/e/BwForCluster_User_Access#Register_a_new_.22RV.22){:target="_blank"}
-      applying for a new project.
-    2. Procedure for
-      [co-workers](https://wiki.bwhpc.de/e/BwForCluster_User_Access#Become_Coworker_of_an_.22RV.22){:target="_blank"}
+      [co-workers](https://wiki.bwhpc.de/e/Registration/bwForCluster/RV#Become_Coworker_of_a_RV){:target="_blank"}
       registering to an existing project
+    2. Procedure for
+      [workgroup leaders](https://wiki.bwhpc.de/e/Registration/bwForCluster/RV#Register_a_new_RV){:target="_blank"}
+      applying for a new project.
 
 {:start="4"}
 4. Register for the service
@@ -68,7 +69,7 @@ http://bwidm.de/entitlement/bwForCluster
   a new service password.
 
 For a **detailed** registration process consult the
-[bwHPC Best Practices Wiki](https://wiki.bwhpc.de/e/BwForCluster_User_Access){:target="_blank"}.
+[bwHPC Best Practices Wiki](https://wiki.bwhpc.de/e/Registration){:target="_blank"}.
 
 ### Registration Process Scheme
 
@@ -77,8 +78,8 @@ For a **detailed** registration process consult the
 ## Login and Password Reset
 
 For
-[login to the bwForCluster NEMO](/nemo/login/)
+[login to the bwForCluster NEMO](https://wiki.bwhpc.de/e/NEMO/Login){:target="_blank"}
 you'll need to set a password on the
 [NEMO service page](https://bwservices.uni-freiburg.de){:target="_blank"}.
-Just use the link in the **bwForCluster NEMO** service box. If you forgot your
-password you can reset your password the same way.
+Just use the link in the **bwForCluster NEMO** service box. If you have forgotten your
+password, you can reset it the same way.

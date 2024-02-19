@@ -6,39 +6,33 @@ title: The bwHPC Project
 The state of Baden-Württemberg offers many
 [HPC resources](http://www.bwhpc.de){:target="_blank"}
 in the state. For example the
-[bwHPC clusters](https://wiki.bwhpc.de/e/Category:BwHPC_Cluster){:target="_blank"}
+[bwHPC clusters](https://www.bwhpc.de/cluster.php){:target="_blank"}
 (bwForClusters, bwUniCluster) at the entry level are available for
 researchers and students from the state of Baden-Württemberg. They run a
 wide range of Open Source and commercial software packages. Researchers
 with a very high demand in computing resources can use clusters and
 supercomputers at higher levels.
 
-The
-[bwForClusters](https://wiki.bwhpc.de/e/Category:BwForCluster){:target="_blank"}
-are for researchers in selected research fields.
+The bwForClusters are for researchers in selected research fields.
 The
 [bwForCluster NEMO](/nemo/)
 in Freiburg is available for researchers of the scientific
 communities: **N**euroscience, **E**lementary Particle Physics,
 **M**icrosystems Engineering and **M**aterial Science. The
-[bwUniCluster](https://wiki.bwhpc.de/e/Category:BwUniCluster){:target="_blank"}
+[bwUniCluster](/bwunicluster/)
 is available for all researchers and students from the state of BW.
 
 ![bwHPC Competence Centers](/img/nemo-cc.png "bwHPC Competence Centers"){:width="600px" .center-image}
 
-All available
-[bwHPC clusters](https://wiki.bwhpc.de/e/Category:BwHPC_Cluster){:target="_blank"}
-including access, hardware, software configuration are described in the
-[central wiki](https://wiki.bwhpc.de/e/Main_Page){:target="_blank"}
+All available bwHPC clusters including access, hardware, software configuration are described in the
+[central wiki](https://wiki.bwhpc.de){:target="_blank"}
 as well. Here you can find the information about the installed software
 and how to
-[run batch jobs](https://wiki.bwhpc.de/e/Batch_Jobs){:target="_blank"}
+[run batch jobs](https://wiki.bwhpc.de/e/Running_Calculations){:target="_blank"}
 on the clusters.
 
-The
-[bwHPC clusters](https://wiki.bwhpc.de/e/Category:BwHPC_Cluster){:target="_blank"}
-use the
-[module environment system](https://wiki.bwhpc.de/e/Software_Modules){:target="_blank"}
+The bwHPC clusters use the
+[module environment system](https://wiki.bwhpc.de/e/Environment_Modules){:target="_blank"}
 This means that you\'ll have to load the correct module first to have a
 software installation available on the cluster.
 
@@ -60,8 +54,7 @@ The
 offers
 [regular courses](https://www.bwhpc.de/courses_a_tutorials.html){:target="_blank"}
 throughout the state of Baden-Württemberg featuring introductions and
-advanced topics for using the
-[bwHPC clusters](https://wiki.bwhpc.de/e/Category:BwHPC_Cluster){:target="_blank"}
+advanced topics for using the bwHPC clusters.
 If you would like to have a course you can\'t find on the course list,
 please send us a request for that and who is interested in which topics.
 We can then try to provide this course at one site.

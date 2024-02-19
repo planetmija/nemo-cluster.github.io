@@ -63,7 +63,7 @@ the resource requirements of the job and the historical usage (fairshare).
   <p class="is-active" data-contentq="nemo_cores_queued">
     The outer line of this graph shows the available cores for jobs in %.
     All nodes, including GPU nodes and nodes for interactive jobs, are used for this calculation.
-    The inner line shows all idle jobs and the cores they require as a percentage (see Nemo Job Cores for absolute numbers).
+    The inner line shows all idle jobs and the cores they require as a percentage (see NEMO Job Cores for absolute numbers).
     Fairshare, job priorities and special job requirements are not considered in this image.
   </p>
   <p class="is-active" data-contentq="nemo_cores_queued" id="nemo_cores_queued"></p>
@@ -100,7 +100,6 @@ the resource requirements of the job and the historical usage (fairshare).
     <iframe class="has-ratio" width="100%" height="600" frameborder="0" seamless src="https://cloud.bwfor.uni-freiburg.de/anon/usage/chart/nemo_queue/"></iframe>
   </p>
 </div>
-
 
 ## NEMO Usage Statistics
 
@@ -149,7 +148,6 @@ the resource requirements of the job and the historical usage (fairshare).
 
   <p data-contentq="nemo_queue_jobs" id="nemo_queue_jobs"></p>
 </div>
-
 
 ## NEMO Project Usage
 

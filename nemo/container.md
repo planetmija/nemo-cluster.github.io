@@ -1,5 +1,5 @@
 ---
-title: S3 Explorer - NEMO Container
+title: S3 Explorer — NEMO Container
 ---
 
 <article class="message is-primary">
