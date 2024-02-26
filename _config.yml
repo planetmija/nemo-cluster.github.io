@@ -99,7 +99,7 @@ defaults:
       author: "NEMO Team Freiburg"
       layout: post
       hide_hero: false
-      hero_image: ./img/nemo.jpg
+      hero_image: /img/nemo.jpg
       show_sidebar: true
   -
     scope:
@@ -109,8 +109,8 @@ defaults:
       author: "NEMO Team Freiburg"
       layout: post
       hide_hero: false
-      hero_image: ./img/node_small.jpg
-      image: ./img/node_small.jpg
+      hero_image: /img/node_small.jpg
+      image: /img/node_small.jpg
       show_sidebar: true
   -
     scope:
