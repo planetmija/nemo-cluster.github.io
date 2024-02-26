@@ -18,7 +18,7 @@ bwHPC does not currently support FIDO2/WebAuthn. For SSH logins, we continue to 
 
 Most FIDO2 security keys have a metal contact surface that ensures the presence of the user by touch and only then allows access to the secrets (second factors).
 
-![FIDO2 and TOTP Token](/img/posts/2024-02-20-security-keys/fido2-totp-token.jpg)
+![FIDO2 and TOTP Token]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-totp-token.jpg)
 
 We have tested some hardware tokens that can be used for SSH logins. We selected these tokens based on the following three features: Price and the TOTP and FIDO2 features, as the first is currently used in bwIDM and the second is necessary for Passkeys and WebAuthn.
 
@@ -51,7 +51,7 @@ We would recommend using the software from Microcosm for Android <a href="#c200a
 
 If you need a TOTP, simply press the button on the token and the current TOTP will be displayed.
 
-![Feitian c200 i34 TOTP NFC Security Token](/img/posts/2024-02-20-security-keys/totp-c220.jpg)
+![Feitian c200 i34 TOTP NFC Security Token]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/totp-c220.jpg)
 
 ## Inexpensive FIDO2-only Key
 
@@ -60,7 +60,7 @@ The **Feitian A4B series** is an inexpensive and simple FIDO2 security key. It c
 The token does not come with its own software. To configure the key, you must use the built-in FIDO2 configurations in the Chrome browser <a href="#fido2c">[fido2c]</a> or Windows <a href="#fido2w">[fido2w]</a>.
 *(\*) Only tested with Google, other manufacturers may only support their own passkeys such as iPhones etc.*
 
-![Feitian A4B series Security Key](/img/posts/2024-02-20-security-keys/fido2-a4b.jpg)
+![Feitian A4B series Security Key]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-a4b.jpg)
 
 ## Affordable FIDO2 and TOTP Key with NFC
 
@@ -85,7 +85,7 @@ However, although the Go code was made without reference to the original code, w
 
 This security key only supports `ecdsa-sk` SSH keys <a href="#fido2y">[fido2y]</a>. If you want to use `ed25519-sk` SSH keys, you can try the "Token2 T2F2-PIN+ FIDO2, U2F and TOTP Security Key with PIN complexity feature" (according to the provider) <a href="#t2f2s">[t2f2s]</a>.
 
-![Token2 T2F2-NFC-Slim FIDO2, U2F and TOTP Security Key](/img/posts/2024-02-20-security-keys/fido2-token2.jpg)
+![Token2 T2F2-NFC-Slim FIDO2, U2F and TOTP Security Key]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-token2.jpg)
 
 ## FIDO2 Security Key with NFC and Support for different Protocols
 
@@ -97,7 +97,7 @@ We received the software for Linux from the manufacturer, but it is not yet free
 
 This security key only supports `ecdsa-sk` SSH keys <a href="#fido2y">[fido2y]</a>.
 
-![Feitian K9/K9Plus series Security Key](/img/posts/2024-02-20-security-keys/fido2-k9plus.jpg)
+![Feitian K9/K9Plus series Security Key]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-k9plus.jpg)
 
 ## YubiKey 5 Series
 
@@ -109,7 +109,7 @@ In addition to TOTP, bwIDM also supports "Yubico OTP" <a href="#yubio">[yubio]</
 
 We have tested the Yubico software for Linux in recent years and have also used the TOTP app for Android. This has always run very reliably and covers all possible scenarios. We have also tested some other ways to use these keys, e.g. to secure Linux logins or password safes like KeepassXC. Some of them we have already described on the NEMO Github page <a href="#fido2s">[fido2s]</a>, for the rest of the possibilities just visit the Yubico developer page <a href="#yubid">[yubid]</a>.
 
-![YubiKey 5 NFC](/img/posts/2024-02-20-security-keys/fido2-yubikey5nfc.jpg)
+![YubiKey 5 NFC]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-yubikey5nfc.jpg)
 
 ## Other Possibilities for TOTP
 
@@ -117,8 +117,8 @@ There are many other options for TOTP than cell phones. As an example, we tested
 
 First, the HEX seed that is displayed under the QR code on login.bwidm.de must be converted into a BASE32 seed (see example for Token2). Then all you have to do is configure the app, choose a name for the entry and insert the seed. TOTP codes are then generated every 30 seconds and you have another option for using TOTP.
 
-![OTP Authenticator Config](/img/posts/2024-02-20-security-keys/otp-authenticator.png){:width="49%"}
-![TOTP App on a Garmin Watch](/img/posts/2024-02-20-security-keys/totp-garmin.jpg){:width="49%"}
+![OTP Authenticator Config]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/otp-authenticator.png){:width="49%"}
+![TOTP App on a Garmin Watch]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/totp-garmin.jpg){:width="49%"}
 
 ## Conclusion
 
