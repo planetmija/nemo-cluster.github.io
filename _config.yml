@@ -9,7 +9,7 @@ baseurl: "/nemo-cluster.github.io"
 repository: "planetmija/nemo-cluster.github.io"
 url: "https://planetmija.github.io"
 permalink: pretty
-favicon: ./img/nemo-favicon.png
+favicon: /nemo-cluster.github.io/img/nemo-favicon.png
 paginate: 9
 paginate_path: "/news/page:num"
 livereload: true
@@ -99,7 +99,7 @@ defaults:
       author: "NEMO Team Freiburg"
       layout: post
       hide_hero: false
-      hero_image: ./img/nemo.jpg
+      hero_image: /nemo-cluster.github.io/img/nemo.jpg
       show_sidebar: true
   -
     scope:
@@ -109,8 +109,8 @@ defaults:
       author: "NEMO Team Freiburg"
       layout: post
       hide_hero: false
-      hero_image: ./img/node_small.jpg
-      image: ./img/node_small.jpg
+      hero_image: /nemo-cluster.github.io/img/node_small.jpg
+      image: /nemo-cluster.github.io/img/node_small.jpg
       show_sidebar: true
   -
     scope:
