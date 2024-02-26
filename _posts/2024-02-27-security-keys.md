@@ -10,15 +10,13 @@ summary: >
     We have looked at some hardware security tokens for bwIDM/bwHPC that can be used instead of a mobile phone.
 ---
 
-# FIDO2 and TOTP Token as a Second Factor for bwHPC and NEMO2
-
 The bwHPC team has been working on multi-factor authentication for some time in response to the intrusions into many HPC systems a few years ago. The use of a second factor to secure logins to services is becoming increasingly mandatory due to security threats. Standards such as Webauthn/FIDO2 make it possible to secure online services with a second factor or to use a passkey instead of passwords.
 
 bwHPC does not currently support FIDO2/WebAuthn. For SSH logins, we continue to use time-based one-time passwords (TOTP) as a second factor. For NEMO2, we want to test FIDO2-secured SSH keys as an alternative to TOTP. You would then have to touch your FIDO2 security key every time you want to login to NEMO2 with your SSH key, for example <a href="#fido2s">[fido2s]</a>. However, another factor is no longer required.
 
 Most FIDO2 security keys have a metal contact surface that ensures the presence of the user by touch and only then allows access to the secrets (second factors).
 
-![FIDO2 and TOTP Token]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-totp-token.jpg)
+![FIDO2 and TOTP Token](/img/posts/2024-02-20-security-keys/fido2-totp-token.jpg)
 
 We have tested some hardware tokens that can be used for SSH logins. We selected these tokens based on the following three features: Price and the TOTP and FIDO2 features, as the first is currently used in bwIDM and the second is necessary for Passkeys and WebAuthn.
 
@@ -29,11 +27,11 @@ We tested pure TOTP and FIDO2 tokens, which were the cheapest, followed by secur
 | Feitian c200 i34 TOTP NFC | NFC (for programming) | 15€ | Windows <a href="#c200w">[c200w]</a>, Android <a href="#c200a">[c200a]</a>, iOS <a href="#c200i">[c200i]</a> | TOTP ONLY |
 | Feitian A4B Series | USB | 15€ | FIDO2 ONLY | *Chrome browser <a href="#fido2c">[fido2c]</a> and Windows <a href="#c200w">[fido2w]</a> built-ins (using standard credential management features specified in <a href="#ctap2">[ctap2]</a>)* |
 | Token2 T2F2 FIDO2/TOTP NFC | USB/NFC | 18€ | Android and iOS <a href="#t2f2t">[t2f2t]</a>, Windows <a href="#t2f2a">[t2f2a]</a>, Python <a href="#t2f2p">[t2f2p]</a> | Windows <a href="#t2f2mg">[t2f2mg]</a> |
-| Feitian K9Plus Series | USB/*NFC(\*)* | ~30€ (depends on features) | Android <a href="#fk9a">[fk9a]</a>, iOS <a href="#fk9i">[fk9i]</a>, Windows <a href="#fk9w">[fk9w]</a> | Windows and MacOS <a href="#fk9m">[fk9m]</a>, *Linux(\**)* |
+| Feitian K9Plus Series | USB/*NFC(\*)* | ~30€ (depends on features) | Android <a href="#fk9a">[fk9a]</a>, iOS <a href="#fk9i">[fk9i]</a>, Windows <a href="#fk9w">[fk9w]</a> | Windows and MacOS <a href="#fk9m">[fk9m]</a>, *Linux(\*\*)* |
 | YubiKey 5 Series | USB/*NFC(\*)* | >50€ | Android, iOS, Linux, Mac and Windows <a href="#yubia">[yubia]</a> | Windows, Mac and Linux <a href="#yubim">[yubim]</a> |
 
 *(\*) Available on selected devices*
-*(\**) Not yet publicly available (as of 20.02.2023)*
+*(\*\*) Not yet publicly available (as of 20.02.2023)*
 
 FIDO2 features such as setting a PIN for secure storage and managing FIDO2 records are already implemented in the Chrome browser <a href="#fido2c">[fido2c]</a> and Windows operating system <a href="#fido2w">[fido2w]</a>, so some of the security tokens rely on these implementations and do not provide them themselves. These tools work with any FIDO2 security key.
 
@@ -51,7 +49,7 @@ We would recommend using the software from Microcosm for Android <a href="#c200a
 
 If you need a TOTP, simply press the button on the token and the current TOTP will be displayed.
 
-![Feitian c200 i34 TOTP NFC Security Token]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/totp-c220.jpg)
+![Feitian c200 i34 TOTP NFC Security Token](/img/posts/2024-02-20-security-keys/totp-c220.jpg)
 
 ## Inexpensive FIDO2-only Key
 
@@ -60,7 +58,7 @@ The **Feitian A4B series** is an inexpensive and simple FIDO2 security key. It c
 The token does not come with its own software. To configure the key, you must use the built-in FIDO2 configurations in the Chrome browser <a href="#fido2c">[fido2c]</a> or Windows <a href="#fido2w">[fido2w]</a>.
 *(\*) Only tested with Google, other manufacturers may only support their own passkeys such as iPhones etc.*
 
-![Feitian A4B series Security Key]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-a4b.jpg)
+![Feitian A4B series Security Key](/img/posts/2024-02-20-security-keys/fido2-a4b.jpg)
 
 ## Affordable FIDO2 and TOTP Key with NFC
 
@@ -85,7 +83,7 @@ However, although the Go code was made without reference to the original code, w
 
 This security key only supports `ecdsa-sk` SSH keys <a href="#fido2y">[fido2y]</a>. If you want to use `ed25519-sk` SSH keys, you can try the "Token2 T2F2-PIN+ FIDO2, U2F and TOTP Security Key with PIN complexity feature" (according to the provider) <a href="#t2f2s">[t2f2s]</a>.
 
-![Token2 T2F2-NFC-Slim FIDO2, U2F and TOTP Security Key]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-token2.jpg)
+![Token2 T2F2-NFC-Slim FIDO2, U2F and TOTP Security Key](/img/posts/2024-02-20-security-keys/fido2-token2.jpg)
 
 ## FIDO2 Security Key with NFC and Support for different Protocols
 
@@ -97,7 +95,9 @@ We received the software for Linux from the manufacturer, but it is not yet free
 
 This security key only supports `ecdsa-sk` SSH keys <a href="#fido2y">[fido2y]</a>.
 
-![Feitian K9/K9Plus series Security Key]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-k9plus.jpg)
+![Feitian K9/K9Plus series Security Key](/img/posts/2024-02-20-security-keys/fido2-k9plus.jpg)
+
+## The Elephanta-Stick aka Exploding Deer aka the Swiss Army Knife aka Egg-laying Wool-milk Sow (of Security Keys)
 
 ## YubiKey 5 Series
 
@@ -109,7 +109,7 @@ In addition to TOTP, bwIDM also supports "Yubico OTP" <a href="#yubio">[yubio]</
 
 We have tested the Yubico software for Linux in recent years and have also used the TOTP app for Android. This has always run very reliably and covers all possible scenarios. We have also tested some other ways to use these keys, e.g. to secure Linux logins or password safes like KeepassXC. Some of them we have already described on the NEMO Github page <a href="#fido2s">[fido2s]</a>, for the rest of the possibilities just visit the Yubico developer page <a href="#yubid">[yubid]</a>.
 
-![YubiKey 5 NFC]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/fido2-yubikey5nfc.jpg)
+![YubiKey 5 NFC](/img/posts/2024-02-20-security-keys/fido2-yubikey5nfc.jpg)
 
 ## Other Possibilities for TOTP
 
@@ -117,8 +117,8 @@ There are many other options for TOTP than cell phones. As an example, we tested
 
 First, the HEX seed that is displayed under the QR code on login.bwidm.de must be converted into a BASE32 seed (see example for Token2). Then all you have to do is configure the app, choose a name for the entry and insert the seed. TOTP codes are then generated every 30 seconds and you have another option for using TOTP.
 
-![OTP Authenticator Config]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/otp-authenticator.png){:width="49%"}
-![TOTP App on a Garmin Watch]({{ site.baseurl }}/img/posts/2024-02-20-security-keys/totp-garmin.jpg){:width="49%"}
+![OTP Authenticator Config](/img/posts/2024-02-20-security-keys/otp-authenticator.png){:width="49%"}
+![TOTP App on a Garmin Watch](/img/posts/2024-02-20-security-keys/totp-garmin.jpg){:width="49%"}
 
 ## Conclusion
 
