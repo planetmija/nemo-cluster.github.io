@@ -4,7 +4,7 @@ title: bwForCluster NEMO
 subtitle: Research Cluster for Neuroscience, Elementary Particle Physics, Microsystems Engineering and Materials Science (NEMO)
 callouts: home_callouts
 hide_hero: false
-hero_image: /img/nemo.jpg
+hero_image: /nemo-cluster.github.io/img/nemo.jpg
 hero_height: is-large
 twitter_posts: false
 twitter_url: "https://twitter.com/..."
